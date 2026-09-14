@@ -5,7 +5,6 @@ A mobile-first, one-page HTML/CSS/JavaScript site. No build, packages, tracking,
 ## Before publishing
 
 1. Contact is configured for **626-346-6254** and **bryanjunksitaway@gmail.com**. Test the text/email links on your phone. No message is sent automatically; customers attach photos in their messaging app.
-2. Tire removal is currently unavailable and has been removed from the site.
 3. The supplied first mascot/logo and all eight job photos are included. Bryan confirmed the truck photos are junk-side jobs. Originals on the Desktop are unchanged.
 
 ## Free deployment: Cloudflare Pages
