@@ -1,6 +1,7 @@
 'use strict';
 const header=document.querySelector('header');const nav=document.querySelector('nav');if(header&&nav&&!document.querySelector('#menu-toggle')){const menu=document.createElement('button');menu.id='menu-toggle';menu.className='menu-toggle';menu.type='button';menu.setAttribute('aria-label','Open menu');menu.setAttribute('aria-expanded','false');menu.innerHTML='<span></span><span></span><span></span>';header.insertBefore(menu,nav);menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close menu':'Open menu')})}
 const footerArea=[...document.querySelectorAll('footer span')].find(x=>/Serving SGV/i.test(x.textContent));if(footerArea){footerArea.innerHTML='<a href="san-gabriel-valley.html">SGV</a> · <a href="los-angeles.html">LA</a> · <a href="inland-empire.html">IE</a> · <a href="riverside.html">Riverside</a> · <a href="orange-county.html">OC</a>'}
+document.querySelectorAll('.city-toggle').forEach(button=>button.addEventListener('click',()=>{const list=document.getElementById(button.getAttribute('aria-controls'));const open=list.hasAttribute('open');list.toggleAttribute('open',!open);button.setAttribute('aria-expanded',String(!open));if(!open)list.scrollIntoView({behavior:'smooth',block:'nearest'})}));
 const calculator=document.querySelector('#calculator');
 if(calculator){
  const result=document.querySelector('#price-result');
