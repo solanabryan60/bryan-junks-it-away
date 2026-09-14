@@ -9,3 +9,4 @@ body:has(.regions) main{display:flex;flex-direction:column}body:has(.regions) ma
 .footer-areas{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin-top:8px}
 .footer-areas a{font-size:12px;color:var(--muted)}
 footer strong{font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.regions .section-heading h2{margin-bottom:12px}.regions .section-heading:after{content:'LOS ANGELES  ·  RIVERSIDE  ·  ORANGE COUNTY  ·  INLAND EMPIRE  ·  SAN GABRIEL VALLEY';display:block;margin-top:18px;font-size:11px;letter-spacing:1.5px;color:var(--muted)}
