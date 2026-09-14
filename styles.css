@@ -29,3 +29,9 @@ h1,h2,h3{font-weight:800;letter-spacing:-.035em}
 .questionnaire .choice:has(input:checked){box-shadow:0 8px 22px #456d2c18}
 .calendar-grid button.past,.time-grid button:disabled{color:#aeb7ae;background:#f0f2ef;border-color:#e2e6e1;text-decoration:line-through;cursor:not-allowed;opacity:.65}.calendar-grid button.past:hover,.time-grid button:disabled:hover{transform:none;box-shadow:none}
 .estimate-disclaimer + .button,.pricing-factors .estimate-disclaimer + .button{margin-top:28px}
+/* Premium promise strip */
+.promise{background:#fff;padding:34px 6%;gap:0;align-items:stretch}
+.promise span{flex:1;padding:8px 34px;position:relative;font-family:var(--display-font);font-size:15px;font-weight:700;letter-spacing:-.02em;text-align:center}
+.promise span+span{border-left:1px solid #d8e1d6}
+.promise span:before{content:'✦';display:block;color:#6a9658;font-size:14px;margin-bottom:6px}
+@media(max-width:800px){.promise{padding:24px 16px;display:grid;grid-template-columns:1fr 1fr;gap:0}.promise span{padding:10px 12px;font-size:13px}.promise span:last-child{grid-column:1/-1;border-left:0;border-top:1px solid #d8e1d6;margin-top:8px;padding-top:18px}}
