@@ -35,3 +35,4 @@ h1,h2,h3{font-weight:800;letter-spacing:-.035em}
 .promise span+span{border-left:1px solid #d8e1d6}
 .promise span:before{content:'✦';display:block;color:#6a9658;font-size:14px;margin-bottom:6px}
 @media(max-width:800px){.promise{padding:24px 16px;display:grid;grid-template-columns:1fr 1fr;gap:0}.promise span{padding:10px 12px;font-size:13px}.promise span:last-child{grid-column:1/-1;border-left:0;border-top:1px solid #d8e1d6;margin-top:8px;padding-top:18px}}
+.feature .button,.schedule-note .button{display:inline-flex;margin-top:18px;min-width:230px;justify-content:center}
