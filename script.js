@@ -6,6 +6,7 @@ const calculator=document.querySelector('#calculator');
 if(calculator){
  const result=document.querySelector('#price-result');
  calculator.querySelectorAll('#home-size input').forEach(input=>input.disabled=true);
+ const otherWrap=document.querySelector('#other-item-wrap');const otherInput=document.querySelector('#other-item');calculator.addEventListener('change',()=>{const show=new FormData(calculator).get('itemType')==='other';if(otherWrap)otherWrap.hidden=!show;if(otherInput){otherInput.disabled=!show;otherInput.required=show}});if(otherInput)otherInput.disabled=true;
  calculator.addEventListener('change',()=>{const home=document.querySelector('#home-size');home.hidden=new FormData(calculator).get('load')!=='home';home.querySelectorAll('input').forEach(input=>input.disabled=home.hidden);result.hidden=true});
  calculator.addEventListener('submit',e=>{
   e.preventDefault();const data=Object.fromEntries(new FormData(calculator));const price=estimatePickup(data);
