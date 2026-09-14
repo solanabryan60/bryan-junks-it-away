@@ -19,3 +19,11 @@ h1,h2,h3{font-weight:800;letter-spacing:-.035em}
 .button{letter-spacing:.01em;font-weight:800}
 .eyebrow,.index{font-weight:700;letter-spacing:.14em}
 .top-areas{display:flex;align-items:center;justify-content:center;gap:20px;padding:11px 5%;background:#e8efe3;border-bottom:1px solid #d6e0d2;font-size:11px;letter-spacing:.08em;text-transform:uppercase;position:relative;z-index:5}.top-areas span{color:var(--muted);font-weight:700}.top-areas a{color:var(--ink);text-decoration:none;font-weight:700}.top-areas a:hover{text-decoration:underline;text-underline-offset:4px}@media(max-width:800px){.top-areas{justify-content:flex-start;gap:13px;overflow-x:auto;white-space:nowrap;padding:10px 20px;font-size:10px}.top-areas::-webkit-scrollbar{display:none}}
+/* Refined questionnaire controls */
+.questionnaire label:not(.choice,.load,.upload){display:block;margin-top:18px;color:#435248;font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.questionnaire input:not([type=radio],[type=checkbox]),.questionnaire textarea,.questionnaire select{border:1px solid #d3ddd2;border-radius:16px;background:#fbfcfa;box-shadow:0 5px 18px #18251e08;padding:16px 18px;transition:border-color .2s,box-shadow .2s,background .2s}
+.questionnaire select{appearance:none;background-color:#fbfcfa;background-image:linear-gradient(45deg,transparent 50%,#536b53 50%),linear-gradient(135deg,#536b53 50%,transparent 50%);background-position:calc(100% - 22px) 22px,calc(100% - 16px) 22px;background-size:6px 6px,6px 6px;background-repeat:no-repeat;padding-right:48px}
+.questionnaire input:focus,.questionnaire textarea:focus,.questionnaire select:focus{border-color:#6e9360;background:#fff;box-shadow:0 0 0 4px #c2f19c66,0 9px 24px #18251e10;outline:0}
+.questionnaire .choice{border-radius:16px;background:#fbfcfa;box-shadow:0 4px 14px #18251e06;transition:transform .2s,border-color .2s,background .2s}
+.questionnaire .choice:hover{transform:translateY(-2px);border-color:#9db496}
+.questionnaire .choice:has(input:checked){box-shadow:0 8px 22px #456d2c18}
