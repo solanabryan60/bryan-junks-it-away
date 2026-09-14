@@ -3,13 +3,18 @@ const header=document.querySelector('header');const nav=document.querySelector('
 const footerArea=[...document.querySelectorAll('footer span')].find(x=>/Serving SGV/i.test(x.textContent));if(footerArea){footerArea.innerHTML='<a href="san-gabriel-valley.html">SGV</a> · <a href="los-angeles.html">LA</a> · <a href="inland-empire.html">IE</a> · <a href="riverside.html">Riverside</a> · <a href="orange-county.html">OC</a>'}
 const calculator=document.querySelector('#calculator');
 if(calculator){
+ const result=document.querySelector('#price-result');
+ calculator.addEventListener('change',()=>{document.querySelector('#home-size').hidden=new FormData(calculator).get('load')!=='home';result.hidden=true});
  calculator.addEventListener('submit',e=>{
-  e.preventDefault();
-  const answers=new FormData(calculator);
-  const query=new URLSearchParams();
-  for(const [key,value] of answers){if(typeof value==='string')query.append(key,value)}
-  location.href='schedule.html?'+query.toString();
+  e.preventDefault();const data=Object.fromEntries(new FormData(calculator));const price=estimatePickup(data);
+  document.querySelector('#price-value').textContent=price.low===null?'Let’s review your pickup':price.low===price.high?'$'+price.low:'$'+price.low+'–$'+price.high;
+  document.querySelector('#price-note').textContent=price.note;
+  const saved={...data,price};delete saved.photos;
+  sessionStorage.setItem('pickupEstimate',JSON.stringify(saved));
+  const query=new URLSearchParams({city:data.city,area:data.area});document.querySelector('#reserve-estimate').href='schedule.html?'+query;
+  result.hidden=false;result.focus();result.scrollIntoView({behavior:'smooth',block:'center'});
  });
+ document.querySelector('#edit-estimate').addEventListener('click',()=>{result.hidden=true;calculator.scrollIntoView({behavior:'smooth'})});
 }
 const booking=document.querySelector('#booking');
 if(booking){
