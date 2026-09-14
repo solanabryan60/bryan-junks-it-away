@@ -19,15 +19,3 @@ if (calculator) {
  calculator.addEventListener('submit',event=>event.preventDefault());
  update();
 }
-const tires = document.querySelector('#tire-count');
-if(tires) {
- const update = () => {
-  const count = Number(tires.value);
-  const valid = tires.validity.valid && Number.isInteger(count) && count >= 1;
-  document.querySelector('#tire-total').textContent = valid ? new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(count * 2.5) : 'Enter a quantity';
-  const link = document.querySelector('#tire-schedule');
-  link.href = valid ? 'schedule.html?tires=' + count : '#tire-count';
- };
- tires.addEventListener('input',update);
- update();
-}
