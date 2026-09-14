@@ -27,3 +27,4 @@ h1,h2,h3{font-weight:800;letter-spacing:-.035em}
 .questionnaire .choice{border-radius:16px;background:#fbfcfa;box-shadow:0 4px 14px #18251e06;transition:transform .2s,border-color .2s,background .2s}
 .questionnaire .choice:hover{transform:translateY(-2px);border-color:#9db496}
 .questionnaire .choice:has(input:checked){box-shadow:0 8px 22px #456d2c18}
+.calendar-grid button.past,.time-grid button:disabled{color:#aeb7ae;background:#f0f2ef;border-color:#e2e6e1;text-decoration:line-through;cursor:not-allowed;opacity:.65}.calendar-grid button.past:hover,.time-grid button:disabled:hover{transform:none;box-shadow:none}
