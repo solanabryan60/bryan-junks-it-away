@@ -53,3 +53,4 @@ footer p{font-size:15px!important;line-height:1.45;max-width:280px}
 @media(min-width:801px){.local{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:8%;align-items:center}.local>div{width:auto}.local>.area{max-width:none;border-top:0;padding-top:0}}
 /* Area page flow: booking reassurance first, service photo second */
 @media(min-width:801px){body:has(.local) main{display:flex;flex-direction:column}body:has(.local) main>.page-intro{order:1}body:has(.local) main>.compact{order:2}body:has(.local) main>.local{order:3}}
+body:has(.local) main{display:flex;flex-direction:column}body:has(.local) main>.page-intro{order:1}body:has(.local) main>.compact{order:2}body:has(.local) main>.local{order:3}
