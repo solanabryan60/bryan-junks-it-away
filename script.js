@@ -1,21 +1,11 @@
-"use strict";
-const calculator = document.querySelector('#calculator');
-if (calculator) {
- const update = () => {
-  const data = new FormData(calculator);
-  const load = Number(data.get('load'));
-  const kind = data.get('kind');
-  const extras = data.getAll('extra');
-  const special = kind === 'Heavy / construction materials' || extras.includes('Heavy / special disposal');
-  const names = {150:'Small pickup',250:'¼ truck',400:'½ truck',550:'¾ truck',700:'Full truck'};
-  document.querySelector('#estimate').textContent = special ? 'In-person quote' : '$' + load + (load === 150 ? '+' : '');
-  document.querySelector('#estimate-caption').textContent = names[load] + ' · ' + kind;
-  document.querySelector('#adjustment').textContent = special ? 'Heavy materials and special disposal need an individual assessment. Standard load prices do not cover these items.' : (extras.length || !['Curbside / driveway','Garage / ground level'].includes(data.get('access')) ? 'Access and handling may change your final price. Bryan will assess these details in person.' : 'Based on standard household junk and straightforward access.');
-  const params = new URLSearchParams({load:String(load),kind,access:data.get('access'),extras:extras.join(', ')});
-  document.querySelector('#schedule-estimate').href = 'schedule.html?' + params;
- };
- calculator.addEventListener('change',update);
- calculator.addEventListener('reset',()=>setTimeout(update,0));
- calculator.addEventListener('submit',event=>event.preventDefault());
- update();
+'use strict';
+const calculator=document.querySelector('#calculator');
+if(calculator){
+ const update=()=>{const d=new FormData(calculator);const load=Number(d.get('load'));const names={150:'Just a few items',250:'¼ of a truck',400:'½ of a truck',550:'¾ of a truck',700:'A full truck'};const heavy=d.get('heavy');const special=heavy==='Safe'||(d.get('otherItems')||'').trim();document.querySelector('#estimate').textContent=special?'In-person quote':'$'+load+(load===150?'+':'');document.querySelector('#estimate-caption').textContent=names[load]+' · '+(d.get('area')||'');document.querySelector('#adjustment').textContent=special?'Heavy or special items need an individual assessment. We’ll review the photos and access in person.':'Your answers give us a starting point. Bryan confirms the actual price when he sees the load.';const q=new URLSearchParams({load,city:d.get('city')||'',area:d.get('area')||'',heavy:heavy||'',access:d.get('access')||''});document.querySelector('#schedule-estimate').href='schedule.html?'+q};calculator.addEventListener('change',update);calculator.addEventListener('input',update);calculator.addEventListener('submit',e=>{e.preventDefault();update();document.querySelector('#estimate').scrollIntoView({behavior:'smooth',block:'center'})});update();}
+const booking=document.querySelector('#booking');
+if(booking){
+ const monthLabel=document.querySelector('#calendar-month'),days=document.querySelector('#calendar-days');let cursor=new Date();cursor.setDate(1);let selectedDate='',selectedTime='';
+ const render=()=>{const y=cursor.getFullYear(),m=cursor.getMonth();monthLabel.textContent=new Intl.DateTimeFormat('en-US',{month:'long',year:'numeric'}).format(cursor);days.innerHTML='';const first=new Date(y,m,1).getDay(),last=new Date(y,m+1,0).getDate();for(let i=0;i<first;i++)days.append(document.createElement('span'));for(let n=1;n<=last;n++){const b=document.createElement('button');b.type='button';b.textContent=n;b.dataset.date=`${y}-${String(m+1).padStart(2,'0')}-${String(n).padStart(2,'0')}`;b.addEventListener('click',()=>{selectedDate=b.dataset.date;days.querySelectorAll('button').forEach(x=>x.classList.remove('selected'));b.classList.add('selected')});days.append(b)}};
+ document.querySelector('[data-calendar-prev]').addEventListener('click',()=>{cursor.setMonth(cursor.getMonth()-1);render()});document.querySelector('[data-calendar-next]').addEventListener('click',()=>{cursor.setMonth(cursor.getMonth()+1);render()});document.querySelectorAll('[data-time]').forEach(b=>b.addEventListener('click',()=>{selectedTime=b.dataset.time;document.querySelectorAll('[data-time]').forEach(x=>x.classList.remove('selected'));b.classList.add('selected')}));
+ booking.addEventListener('submit',e=>{e.preventDefault();if(!selectedDate||!selectedTime){alert('Choose a day and arrival window first.');return}const d=new FormData(booking);const summary=`${selectedDate} at ${selectedTime} · ${d.get('city')} · ${d.get('name')}`;document.querySelector('#booking-summary').textContent=summary;document.querySelector('#booking-result').hidden=false;document.querySelector('#booking-text').href='sms:+16263466254?body='+encodeURIComponent(`Hi Bryan! I’d like to book ${summary}. Items: ${d.get('items')}. I’ll attach photos.`)});render();
 }
