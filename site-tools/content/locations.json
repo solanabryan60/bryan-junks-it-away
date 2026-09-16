@@ -1,0 +1,3000 @@
+[
+  {
+    "slug": "pasadena",
+    "name": "Pasadena",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley",
+      "los-angeles"
+    ],
+    "nearby": [
+      "south-pasadena",
+      "alhambra",
+      "eagle-rock",
+      "san-gabriel"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.148787999999996,
+      -118.14175999999999
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "el-monte",
+    "name": "El Monte",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "temple-city",
+      "rosemead",
+      "baldwin-park",
+      "arcadia"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0717,
+      -118.02680000000001
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "west-covina",
+    "name": "West Covina",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "la-puente",
+      "covina",
+      "industry",
+      "baldwin-park"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.056025000000005,
+      -117.91772499999999
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "baldwin-park",
+    "name": "Baldwin Park",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "irwindale",
+      "duarte",
+      "bradbury",
+      "el-monte"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0964,
+      -117.9682
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "monrovia",
+    "name": "Monrovia",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "bradbury",
+      "duarte",
+      "arcadia",
+      "irwindale"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.14605,
+      -118.0002
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "arcadia",
+    "name": "Arcadia",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "sierra-madre",
+      "monrovia",
+      "temple-city",
+      "bradbury"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.134024999999994,
+      -118.037125
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "alhambra",
+    "name": "Alhambra",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley",
+      "los-angeles"
+    ],
+    "nearby": [
+      "south-pasadena",
+      "san-gabriel",
+      "rosemead",
+      "pasadena"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.09118333333333,
+      -118.13011666666667
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "temple-city",
+    "name": "Temple City",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "rosemead",
+      "san-gabriel",
+      "arcadia",
+      "el-monte"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.1016,
+      -118.0537
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "rosemead",
+    "name": "Rosemead",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "san-gabriel",
+      "temple-city",
+      "el-monte",
+      "alhambra"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.07566666666666,
+      -118.07696666666666
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "covina",
+    "name": "Covina",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "azusa",
+      "west-covina",
+      "san-dimas",
+      "glendora"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.092333333333336,
+      -117.88226666666667
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "duarte",
+    "name": "Duarte",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "bradbury",
+      "irwindale",
+      "monrovia",
+      "baldwin-park"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.14306666666667,
+      -117.96613333333333
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "glendora",
+    "name": "Glendora",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "san-dimas",
+      "azusa",
+      "covina",
+      "la-verne"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.1412,
+      -117.84944999999999
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "azusa",
+    "name": "Azusa",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "covina",
+      "glendora",
+      "irwindale",
+      "duarte"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.1248,
+      -117.9031
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "la-verne",
+    "name": "La Verne",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "san-dimas",
+      "claremont",
+      "pomona",
+      "glendora"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.1159,
+      -117.7708
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "san-dimas",
+    "name": "San Dimas",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "la-verne",
+      "glendora",
+      "covina",
+      "pomona"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.1023,
+      -117.8169
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "claremont",
+    "name": "Claremont",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley",
+      "inland-empire"
+    ],
+    "nearby": [
+      "montclair",
+      "la-verne",
+      "upland",
+      "pomona"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.1092,
+      -117.7183
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "pomona",
+    "name": "Pomona",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley",
+      "inland-empire"
+    ],
+    "nearby": [
+      "montclair",
+      "la-verne",
+      "claremont",
+      "san-dimas"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.061125000000004,
+      -117.755425
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "san-gabriel",
+    "name": "San Gabriel",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "rosemead",
+      "alhambra",
+      "temple-city",
+      "south-pasadena"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.1002,
+      -118.09566666666667
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "la-puente",
+    "name": "La Puente",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "industry",
+      "hacienda-heights",
+      "west-covina",
+      "la-habra-heights"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0283,
+      -117.955625
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "walnut",
+    "name": "Walnut",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "diamond-bar",
+      "rowland-heights",
+      "west-covina",
+      "industry"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0193,
+      -117.85995
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "south-pasadena",
+    "name": "South Pasadena",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "alhambra",
+      "pasadena",
+      "san-gabriel",
+      "northeast-los-angeles"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.1135,
+      -118.1525
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "sierra-madre",
+    "name": "Sierra Madre",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "arcadia",
+      "monrovia",
+      "temple-city",
+      "bradbury"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.1634,
+      -118.05235
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "bradbury",
+    "name": "Bradbury",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "duarte",
+      "monrovia",
+      "irwindale",
+      "baldwin-park"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.14944,
+      -117.97444
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Bradbury%2C_California"
+  },
+  {
+    "slug": "diamond-bar",
+    "name": "Diamond Bar",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "walnut",
+      "pomona",
+      "chino-hills",
+      "rowland-heights"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0066,
+      -117.8098
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "rowland-heights",
+    "name": "Rowland Heights",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "industry",
+      "walnut",
+      "la-habra-heights",
+      "hacienda-heights"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.9818,
+      -117.8969
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "hacienda-heights",
+    "name": "Hacienda Heights",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "industry",
+      "la-puente",
+      "la-habra-heights",
+      "rowland-heights"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.9977,
+      -117.9652
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "industry",
+    "name": "Industry",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "hacienda-heights",
+      "la-puente",
+      "rowland-heights",
+      "la-habra-heights"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.005,
+      -117.939
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/City_of_Industry%2C_California"
+  },
+  {
+    "slug": "irwindale",
+    "name": "Irwindale",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "baldwin-park",
+      "duarte",
+      "bradbury",
+      "monrovia"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.117,
+      -117.967
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Irwindale%2C_California"
+  },
+  {
+    "slug": "maywood",
+    "name": "Maywood",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "commerce",
+      "boyle-heights",
+      "east-los-angeles",
+      "montebello"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.989,
+      -118.1877
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "commerce",
+    "name": "Commerce",
+    "type": "service area",
+    "regions": [
+      "san-gabriel-valley"
+    ],
+    "nearby": [
+      "maywood",
+      "east-los-angeles",
+      "montebello",
+      "boyle-heights"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.00056,
+      -118.15472
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Commerce%2C_California"
+  },
+  {
+    "slug": "van-nuys",
+    "name": "Van Nuys",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "sherman-oaks",
+      "panorama-city",
+      "lake-balboa",
+      "valley-village"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.18763846153846,
+      -118.45101538461539
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "northridge",
+    "name": "Northridge",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "reseda",
+      "winnetka",
+      "lake-balboa",
+      "granada-hills"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.230866666666664,
+      -118.53543333333333
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "canoga-park",
+    "name": "Canoga Park",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "winnetka",
+      "west-hills",
+      "woodland-hills",
+      "chatsworth"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.2053,
+      -118.6014
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "reseda",
+    "name": "Reseda",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "northridge",
+      "lake-balboa",
+      "winnetka",
+      "tarzana"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.2009,
+      -118.5378
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "burbank",
+    "name": "Burbank",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "north-hollywood",
+      "glendale",
+      "sun-valley",
+      "valley-village"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.18060769230769,
+      -118.31326923076922
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "chatsworth",
+    "name": "Chatsworth",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "porter-ranch",
+      "winnetka",
+      "canoga-park",
+      "northridge"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.25775,
+      -118.5963
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "tarzana",
+    "name": "Tarzana",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "reseda",
+      "encino",
+      "winnetka",
+      "woodland-hills"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.170199999999994,
+      -118.54769999999999
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "woodland-hills",
+    "name": "Woodland Hills",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "canoga-park",
+      "calabasas",
+      "west-hills",
+      "tarzana"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.16725,
+      -118.606925
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "sylmar",
+    "name": "Sylmar",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "pacoima",
+      "mission-hills",
+      "granada-hills",
+      "panorama-city"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.3066,
+      -118.44069999999999
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "sun-valley",
+    "name": "Sun Valley",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "north-hollywood",
+      "valley-village",
+      "burbank",
+      "pacoima"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.2192,
+      -118.37015
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "north-hollywood",
+    "name": "North Hollywood",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "valley-village",
+      "studio-city",
+      "sun-valley",
+      "burbank"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.17436363636364,
+      -118.37974545454546
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "sherman-oaks",
+    "name": "Sherman Oaks",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "van-nuys",
+      "valley-village",
+      "studio-city",
+      "encino"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.15155,
+      -118.447725
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "encino",
+    "name": "Encino",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "tarzana",
+      "lake-balboa",
+      "sherman-oaks",
+      "van-nuys"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.158725000000004,
+      -118.502025
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "panorama-city",
+    "name": "Panorama City",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "mission-hills",
+      "van-nuys",
+      "pacoima",
+      "lake-balboa"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.225449999999995,
+      -118.44839999999999
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "granada-hills",
+    "name": "Granada Hills",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "mission-hills",
+      "northridge",
+      "porter-ranch",
+      "sylmar"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.2709,
+      -118.51115
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "mission-hills",
+    "name": "Mission Hills",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "pacoima",
+      "panorama-city",
+      "granada-hills",
+      "sylmar"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.258766666666666,
+      -118.46423333333333
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "studio-city",
+    "name": "Studio City",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "valley-village",
+      "north-hollywood",
+      "sherman-oaks",
+      "west-hollywood"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.1458,
+      -118.3939
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "calabasas",
+    "name": "Calabasas",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "woodland-hills",
+      "west-hills",
+      "canoga-park",
+      "tarzana"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.14985,
+      -118.65125
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "west-hills",
+    "name": "West Hills",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "canoga-park",
+      "woodland-hills",
+      "calabasas",
+      "winnetka"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.196799999999996,
+      -118.64145
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "winnetka",
+    "name": "Winnetka",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "canoga-park",
+      "reseda",
+      "northridge",
+      "tarzana"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.21125,
+      -118.57345000000001
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "pacoima",
+    "name": "Pacoima",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "mission-hills",
+      "panorama-city",
+      "sylmar",
+      "sun-valley"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.260200000000005,
+      -118.42493333333334
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "lake-balboa",
+    "name": "Lake Balboa",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "reseda",
+      "northridge",
+      "encino",
+      "van-nuys"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.20111,
+      -118.50111
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Lake_Balboa%2C_Los_Angeles"
+  },
+  {
+    "slug": "porter-ranch",
+    "name": "Porter Ranch",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "chatsworth",
+      "northridge",
+      "winnetka",
+      "canoga-park"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.2619,
+      -118.582
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "valley-village",
+    "name": "Valley Village",
+    "type": "service area",
+    "regions": [
+      "san-fernando-valley"
+    ],
+    "nearby": [
+      "north-hollywood",
+      "studio-city",
+      "sherman-oaks",
+      "van-nuys"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.16605,
+      -118.3977
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "downtown-los-angeles",
+    "name": "Downtown Los Angeles",
+    "type": "service area",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "westlake",
+      "echo-park",
+      "boyle-heights",
+      "koreatown"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.05,
+      -118.25
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Downtown_Los_Angeles"
+  },
+  {
+    "slug": "east-los-angeles",
+    "name": "East Los Angeles",
+    "type": "service area",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "boyle-heights",
+      "commerce",
+      "maywood",
+      "montebello"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.033,
+      -118.167
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/East_Los_Angeles%2C_California"
+  },
+  {
+    "slug": "northeast-los-angeles",
+    "name": "Northeast Los Angeles",
+    "type": "service area",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "eagle-rock",
+      "glendale",
+      "silver-lake",
+      "echo-park"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.1178,
+      -118.216
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Northeast_Los_Angeles"
+  },
+  {
+    "slug": "south-los-angeles",
+    "name": "South Los Angeles",
+    "type": "service area",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "westlake",
+      "downtown-los-angeles",
+      "inglewood",
+      "mid-city"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.98056,
+      -118.28611
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/South_Los_Angeles"
+  },
+  {
+    "slug": "hollywood",
+    "name": "Hollywood",
+    "type": "neighborhood",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "los-feliz",
+      "west-hollywood",
+      "koreatown",
+      "silver-lake"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.098,
+      -118.32952
+    ],
+    "coordinate_source": "https://mapcarta.com/Los_Angeles/Hollywood"
+  },
+  {
+    "slug": "los-feliz",
+    "name": "Los Feliz",
+    "type": "neighborhood",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "silver-lake",
+      "hollywood",
+      "echo-park",
+      "glendale"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.1124,
+      -118.2851
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Los_Feliz%2C_Los_Angeles"
+  },
+  {
+    "slug": "eagle-rock",
+    "name": "Eagle Rock",
+    "type": "neighborhood",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "northeast-los-angeles",
+      "glendale",
+      "south-pasadena",
+      "pasadena"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.13889,
+      -118.21306
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Eagle_Rock%2C_Los_Angeles"
+  },
+  {
+    "slug": "montebello",
+    "name": "Montebello",
+    "type": "service area",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "commerce",
+      "east-los-angeles",
+      "maywood",
+      "rosemead"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0133,
+      -118.113
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "whittier",
+    "name": "Whittier",
+    "type": "service area",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "hacienda-heights",
+      "la-habra-heights",
+      "norwalk",
+      "montebello"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.967929999999996,
+      -118.03081999999999
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "la-habra-heights",
+    "name": "La Habra Heights",
+    "type": "service area",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "hacienda-heights",
+      "industry",
+      "rowland-heights",
+      "la-puente"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.96389,
+      -117.95278
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/La_Habra_Heights%2C_California"
+  },
+  {
+    "slug": "norwalk",
+    "name": "Norwalk",
+    "type": "service area",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "bellflower",
+      "downey",
+      "la-palma",
+      "whittier"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.903333333333336,
+      -118.08173333333333
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "downey",
+    "name": "Downey",
+    "type": "service area",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "norwalk",
+      "bellflower",
+      "commerce",
+      "maywood"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.940375,
+      -118.130025
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "bellflower",
+    "name": "Bellflower",
+    "type": "service area",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "norwalk",
+      "downey",
+      "la-palma",
+      "los-alamitos"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.8842,
+      -118.12174999999999
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "long-beach",
+    "name": "Long Beach",
+    "type": "service area",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "seal-beach",
+      "torrance",
+      "los-alamitos",
+      "bellflower"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.78824814814815,
+      -118.19525555555555
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "glendale",
+    "name": "Glendale",
+    "type": "service area",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "eagle-rock",
+      "northeast-los-angeles",
+      "los-feliz",
+      "burbank"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.152271428571424,
+      -118.2546
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "silver-lake",
+    "name": "Silver Lake",
+    "type": "neighborhood",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "echo-park",
+      "los-feliz",
+      "westlake",
+      "koreatown"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.09444444444445,
+      -118.2675
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Silver_Lake%2C_Los_Angeles"
+  },
+  {
+    "slug": "echo-park",
+    "name": "Echo Park",
+    "type": "neighborhood",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "silver-lake",
+      "downtown-los-angeles",
+      "westlake",
+      "koreatown"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0792,
+      -118.258
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Echo_Park%2C_Los_Angeles"
+  },
+  {
+    "slug": "boyle-heights",
+    "name": "Boyle Heights",
+    "type": "neighborhood",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "east-los-angeles",
+      "downtown-los-angeles",
+      "maywood",
+      "commerce"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.03389,
+      -118.20444
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Boyle_Heights%2C_Los_Angeles"
+  },
+  {
+    "slug": "koreatown",
+    "name": "Koreatown",
+    "type": "neighborhood",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "westlake",
+      "echo-park",
+      "mid-city",
+      "silver-lake"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0618,
+      -118.3006
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Koreatown%2C_Los_Angeles"
+  },
+  {
+    "slug": "westlake",
+    "name": "Westlake",
+    "type": "neighborhood",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "koreatown",
+      "downtown-los-angeles",
+      "echo-park",
+      "silver-lake"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0536044,
+      -118.2798855
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Westlake%2C_Los_Angeles"
+  },
+  {
+    "slug": "mid-city",
+    "name": "Mid-City",
+    "type": "neighborhood",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "koreatown",
+      "west-hollywood",
+      "hollywood",
+      "westlake"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0459,
+      -118.3453
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Mid-City%2C_Los_Angeles"
+  },
+  {
+    "slug": "west-hollywood",
+    "name": "West Hollywood",
+    "type": "service area",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "hollywood",
+      "mid-city",
+      "studio-city",
+      "koreatown"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0906,
+      -118.3788
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "inglewood",
+    "name": "Inglewood",
+    "type": "service area",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "south-los-angeles",
+      "torrance",
+      "mid-city",
+      "maywood"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.91416666666667,
+      -118.33629166666667
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "torrance",
+    "name": "Torrance",
+    "type": "service area",
+    "regions": [
+      "los-angeles"
+    ],
+    "nearby": [
+      "long-beach",
+      "inglewood",
+      "south-los-angeles",
+      "bellflower"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.81095,
+      -118.31317
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "riverside",
+    "name": "Riverside",
+    "type": "service area",
+    "regions": [
+      "inland-empire",
+      "riverside"
+    ],
+    "nearby": [
+      "woodcrest",
+      "jurupa-valley",
+      "colton",
+      "norco"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.95069411764706,
+      -117.39744705882353
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "ontario",
+    "name": "Ontario",
+    "type": "service area",
+    "regions": [
+      "inland-empire"
+    ],
+    "nearby": [
+      "montclair",
+      "upland",
+      "chino",
+      "claremont"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0574,
+      -117.640375
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "fontana",
+    "name": "Fontana",
+    "type": "service area",
+    "regions": [
+      "inland-empire"
+    ],
+    "nearby": [
+      "rialto",
+      "jurupa-valley",
+      "rancho-cucamonga",
+      "san-bernardino"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.08618,
+      -117.45194000000001
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "rancho-cucamonga",
+    "name": "Rancho Cucamonga",
+    "type": "service area",
+    "regions": [
+      "inland-empire"
+    ],
+    "nearby": [
+      "upland",
+      "ontario",
+      "fontana",
+      "montclair"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.13364,
+      -117.57712
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "san-bernardino",
+    "name": "San Bernardino",
+    "type": "service area",
+    "regions": [
+      "inland-empire"
+    ],
+    "nearby": [
+      "loma-linda",
+      "rialto",
+      "colton",
+      "redlands"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.11947333333333,
+      -117.29644666666667
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "colton",
+    "name": "Colton",
+    "type": "service area",
+    "regions": [
+      "inland-empire"
+    ],
+    "nearby": [
+      "loma-linda",
+      "san-bernardino",
+      "redlands",
+      "moreno-valley"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0315,
+      -117.2874
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "redlands",
+    "name": "Redlands",
+    "type": "service area",
+    "regions": [
+      "inland-empire"
+    ],
+    "nearby": [
+      "loma-linda",
+      "colton",
+      "yucaipa",
+      "san-bernardino"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.05343333333333,
+      -117.1767
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "loma-linda",
+    "name": "Loma Linda",
+    "type": "service area",
+    "regions": [
+      "inland-empire"
+    ],
+    "nearby": [
+      "colton",
+      "redlands",
+      "san-bernardino",
+      "moreno-valley"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0498,
+      -117.2579
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "eastvale",
+    "name": "Eastvale",
+    "type": "city",
+    "regions": [
+      "inland-empire",
+      "riverside"
+    ],
+    "nearby": [
+      "norco",
+      "jurupa-valley",
+      "chino",
+      "corona"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.96361,
+      -117.56417
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Eastvale,_California"
+  },
+  {
+    "slug": "corona",
+    "name": "Corona",
+    "type": "service area",
+    "regions": [
+      "inland-empire",
+      "riverside"
+    ],
+    "nearby": [
+      "norco",
+      "eastvale",
+      "jurupa-valley",
+      "chino"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.853028571428574,
+      -117.5537
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "chino",
+    "name": "Chino",
+    "type": "service area",
+    "regions": [
+      "inland-empire"
+    ],
+    "nearby": [
+      "chino-hills",
+      "ontario",
+      "eastvale",
+      "montclair"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.98325,
+      -117.66239999999999
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "chino-hills",
+    "name": "Chino Hills",
+    "type": "service area",
+    "regions": [
+      "inland-empire"
+    ],
+    "nearby": [
+      "chino",
+      "diamond-bar",
+      "pomona",
+      "yorba-linda"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.9797,
+      -117.7308
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "upland",
+    "name": "Upland",
+    "type": "service area",
+    "regions": [
+      "inland-empire"
+    ],
+    "nearby": [
+      "claremont",
+      "montclair",
+      "ontario",
+      "rancho-cucamonga"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.123266666666666,
+      -117.65823333333333
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "jurupa-valley",
+    "name": "Jurupa Valley",
+    "type": "city",
+    "regions": [
+      "inland-empire",
+      "riverside"
+    ],
+    "nearby": [
+      "eastvale",
+      "riverside",
+      "fontana",
+      "norco"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34,
+      -117.483
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Jurupa_Valley,_California"
+  },
+  {
+    "slug": "moreno-valley",
+    "name": "Moreno Valley",
+    "type": "service area",
+    "regions": [
+      "inland-empire",
+      "riverside"
+    ],
+    "nearby": [
+      "colton",
+      "woodcrest",
+      "loma-linda",
+      "redlands"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.92894285714286,
+      -117.22625714285714
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "norco",
+    "name": "Norco",
+    "type": "service area",
+    "regions": [
+      "inland-empire",
+      "riverside"
+    ],
+    "nearby": [
+      "eastvale",
+      "corona",
+      "jurupa-valley",
+      "chino"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.9247,
+      -117.5517
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "perris",
+    "name": "Perris",
+    "type": "service area",
+    "regions": [
+      "inland-empire",
+      "riverside"
+    ],
+    "nearby": [
+      "canyon-lake",
+      "woodcrest",
+      "lake-elsinore",
+      "menifee"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.7903,
+      -117.24795
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "hemet",
+    "name": "Hemet",
+    "type": "service area",
+    "regions": [
+      "inland-empire",
+      "riverside"
+    ],
+    "nearby": [
+      "san-jacinto",
+      "winchester",
+      "menifee",
+      "banning"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.742025,
+      -116.971375
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "temecula",
+    "name": "Temecula",
+    "type": "service area",
+    "regions": [
+      "inland-empire",
+      "riverside"
+    ],
+    "nearby": [
+      "murrieta",
+      "winchester",
+      "wildomar",
+      "menifee"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.4995,
+      -117.14072
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "murrieta",
+    "name": "Murrieta",
+    "type": "service area",
+    "regions": [
+      "inland-empire",
+      "riverside"
+    ],
+    "nearby": [
+      "wildomar",
+      "temecula",
+      "menifee",
+      "canyon-lake"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.562,
+      -117.222
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "montclair",
+    "name": "Montclair",
+    "type": "service area",
+    "regions": [
+      "inland-empire"
+    ],
+    "nearby": [
+      "claremont",
+      "pomona",
+      "ontario",
+      "upland"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0733,
+      -117.6987
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "palm-springs",
+    "name": "Palm Springs",
+    "type": "service area",
+    "regions": [
+      "inland-empire"
+    ],
+    "nearby": [
+      "banning",
+      "san-jacinto",
+      "hemet",
+      "beaumont"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.801433333333335,
+      -116.5292
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "victorville",
+    "name": "Victorville",
+    "type": "service area",
+    "regions": [
+      "inland-empire"
+    ],
+    "nearby": [
+      "rialto",
+      "san-bernardino",
+      "rancho-cucamonga",
+      "fontana"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.518550000000005,
+      -117.33664999999999
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "rialto",
+    "name": "Rialto",
+    "type": "service area",
+    "regions": [
+      "inland-empire"
+    ],
+    "nearby": [
+      "fontana",
+      "san-bernardino",
+      "colton",
+      "loma-linda"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.13465,
+      -117.39065
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "yucaipa",
+    "name": "Yucaipa",
+    "type": "service area",
+    "regions": [
+      "inland-empire"
+    ],
+    "nearby": [
+      "calimesa",
+      "beaumont",
+      "redlands",
+      "banning"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      34.0282,
+      -117.0489
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "beaumont",
+    "name": "Beaumont",
+    "type": "service area",
+    "regions": [
+      "inland-empire",
+      "riverside"
+    ],
+    "nearby": [
+      "banning",
+      "calimesa",
+      "yucaipa",
+      "san-jacinto"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.9504,
+      -116.9701
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "banning",
+    "name": "Banning",
+    "type": "service area",
+    "regions": [
+      "inland-empire",
+      "riverside"
+    ],
+    "nearby": [
+      "beaumont",
+      "calimesa",
+      "san-jacinto",
+      "yucaipa"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.9282,
+      -116.8899
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "menifee",
+    "name": "Menifee",
+    "type": "service area",
+    "regions": [
+      "riverside"
+    ],
+    "nearby": [
+      "canyon-lake",
+      "winchester",
+      "wildomar",
+      "murrieta"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.6647,
+      -117.1743
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "lake-elsinore",
+    "name": "Lake Elsinore",
+    "type": "service area",
+    "regions": [
+      "riverside"
+    ],
+    "nearby": [
+      "canyon-lake",
+      "wildomar",
+      "menifee",
+      "perris"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.67353333333333,
+      -117.32626666666667
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "san-jacinto",
+    "name": "San Jacinto",
+    "type": "service area",
+    "regions": [
+      "riverside"
+    ],
+    "nearby": [
+      "hemet",
+      "banning",
+      "beaumont",
+      "winchester"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.789633333333335,
+      -116.95763333333333
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "canyon-lake",
+    "name": "Canyon Lake",
+    "type": "city",
+    "regions": [
+      "riverside"
+    ],
+    "nearby": [
+      "lake-elsinore",
+      "menifee",
+      "wildomar",
+      "perris"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.68417,
+      -117.25556
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Canyon_Lake,_California"
+  },
+  {
+    "slug": "calimesa",
+    "name": "Calimesa",
+    "type": "service area",
+    "regions": [
+      "riverside"
+    ],
+    "nearby": [
+      "yucaipa",
+      "beaumont",
+      "redlands",
+      "banning"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.9946,
+      -117.043
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "wildomar",
+    "name": "Wildomar",
+    "type": "service area",
+    "regions": [
+      "riverside"
+    ],
+    "nearby": [
+      "murrieta",
+      "canyon-lake",
+      "lake-elsinore",
+      "menifee"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.6021,
+      -117.264
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "winchester",
+    "name": "Winchester",
+    "type": "service area",
+    "regions": [
+      "riverside"
+    ],
+    "nearby": [
+      "menifee",
+      "murrieta",
+      "temecula",
+      "wildomar"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.6243,
+      -117.0885
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "woodcrest",
+    "name": "Woodcrest",
+    "type": "service area",
+    "regions": [
+      "riverside"
+    ],
+    "nearby": [
+      "riverside",
+      "moreno-valley",
+      "perris",
+      "jurupa-valley"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.88222,
+      -117.35722
+    ],
+    "coordinate_source": "https://en.wikipedia.org/wiki/Woodcrest%2C_California"
+  },
+  {
+    "slug": "anaheim",
+    "name": "Anaheim",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "fullerton",
+      "placentia",
+      "orange",
+      "villa-park"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.83591764705882,
+      -117.89771764705883
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "santa-ana",
+    "name": "Santa Ana",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "tustin",
+      "fountain-valley",
+      "orange",
+      "irvine"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.74091818181818,
+      -117.86662727272727
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "fullerton",
+    "name": "Fullerton",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "anaheim",
+      "placentia",
+      "brea",
+      "buena-park"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.880812500000005,
+      -117.921925
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "huntington-beach",
+    "name": "Huntington Beach",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "fountain-valley",
+      "westminster",
+      "costa-mesa",
+      "garden-grove"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.692233333333334,
+      -118.00085
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "irvine",
+    "name": "Irvine",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "tustin",
+      "aliso-viejo",
+      "santa-ana",
+      "lake-forest"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.67776923076923,
+      -117.79703846153846
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "orange",
+    "name": "Orange",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "villa-park",
+      "tustin",
+      "anaheim",
+      "santa-ana"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.80353636363636,
+      -117.8241
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "garden-grove",
+    "name": "Garden Grove",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "westminster",
+      "cypress",
+      "fountain-valley",
+      "los-alamitos"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.77811428571429,
+      -117.97307142857143
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "costa-mesa",
+    "name": "Costa Mesa",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "newport-beach",
+      "fountain-valley",
+      "huntington-beach",
+      "santa-ana"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.656166666666664,
+      -117.91329999999999
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "fountain-valley",
+    "name": "Fountain Valley",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "huntington-beach",
+      "costa-mesa",
+      "westminster",
+      "santa-ana"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.7121,
+      -117.93934999999999
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "westminster",
+    "name": "Westminster",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "garden-grove",
+      "huntington-beach",
+      "fountain-valley",
+      "seal-beach"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.755966666666666,
+      -117.99873333333333
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "tustin",
+    "name": "Tustin",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "santa-ana",
+      "irvine",
+      "orange",
+      "villa-park"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.73596666666667,
+      -117.80930000000001
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "yorba-linda",
+    "name": "Yorba Linda",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "placentia",
+      "brea",
+      "villa-park",
+      "chino-hills"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.89366666666667,
+      -117.7797
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "brea",
+    "name": "Brea",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "placentia",
+      "rowland-heights",
+      "fullerton",
+      "yorba-linda"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.9236,
+      -117.85723333333334
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "buena-park",
+    "name": "Buena Park",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "la-palma",
+      "cypress",
+      "fullerton",
+      "los-alamitos"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.856425,
+      -118.000925
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "newport-beach",
+    "name": "Newport Beach",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "costa-mesa",
+      "fountain-valley",
+      "irvine",
+      "aliso-viejo"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.62093333333333,
+      -117.89705000000001
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "mission-viejo",
+    "name": "Mission Viejo",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "lake-forest",
+      "aliso-viejo",
+      "laguna-niguel",
+      "san-juan-capistrano"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.612966666666665,
+      -117.6495
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "lake-forest",
+    "name": "Lake Forest",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "mission-viejo",
+      "aliso-viejo",
+      "irvine",
+      "laguna-niguel"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.6437,
+      -117.6868
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "laguna-beach",
+    "name": "Laguna Beach",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "laguna-niguel",
+      "aliso-viejo",
+      "dana-point",
+      "san-juan-capistrano"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.542950000000005,
+      -117.78139999999999
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "laguna-niguel",
+    "name": "Laguna Niguel",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "san-juan-capistrano",
+      "dana-point",
+      "laguna-beach",
+      "san-clemente"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.5207,
+      -117.71005
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "dana-point",
+    "name": "Dana Point",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "san-juan-capistrano",
+      "laguna-niguel",
+      "san-clemente",
+      "laguna-beach"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.4743,
+      -117.6964
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "san-clemente",
+    "name": "San Clemente",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "san-juan-capistrano",
+      "dana-point",
+      "laguna-niguel",
+      "laguna-beach"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.44616666666667,
+      -117.62723333333334
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "san-juan-capistrano",
+    "name": "San Juan Capistrano",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "dana-point",
+      "laguna-niguel",
+      "san-clemente",
+      "laguna-beach"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.5031,
+      -117.6608
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "aliso-viejo",
+    "name": "Aliso Viejo",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "irvine",
+      "lake-forest",
+      "laguna-beach",
+      "newport-beach"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.61935,
+      -117.7736
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "cypress",
+    "name": "Cypress",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "la-palma",
+      "los-alamitos",
+      "buena-park",
+      "garden-grove"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.8181,
+      -118.0357
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "la-palma",
+    "name": "La Palma",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "cypress",
+      "buena-park",
+      "los-alamitos",
+      "norwalk"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.8491,
+      -118.0398
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "los-alamitos",
+    "name": "Los Alamitos",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "cypress",
+      "seal-beach",
+      "la-palma",
+      "westminster"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.798950000000005,
+      -118.0669
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "seal-beach",
+    "name": "Seal Beach",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "los-alamitos",
+      "westminster",
+      "cypress",
+      "garden-grove"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.7602,
+      -118.0808
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "placentia",
+    "name": "Placentia",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "brea",
+      "anaheim",
+      "fullerton",
+      "yorba-linda"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.87865,
+      -117.85499999999999
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  },
+  {
+    "slug": "villa-park",
+    "name": "Villa Park",
+    "type": "service area",
+    "regions": [
+      "orange-county"
+    ],
+    "nearby": [
+      "orange",
+      "placentia",
+      "anaheim",
+      "yorba-linda"
+    ],
+    "indexable": false,
+    "indexing_reason": "Service guidance is useful, but verified location-specific editorial detail is not yet available.",
+    "coordinates": [
+      33.8205,
+      -117.8104
+    ],
+    "coordinate_source": "https://download.geonames.org/export/zip/US.zip"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "python3 site-tools/build.py",
+  "outputDirectory": "public",
+  "trailingSlash": true,
+  "cleanUrls": false,
+  "redirects": [
+    {"source":"/:path*","has":[{"type":"host","value":"bryanjunksitaway.com"}],"destination":"https://www.bryanjunksitaway.com/:path*","permanent":true},
+    {"source":"/index.html","destination":"/","permanent":true},
+    {"source":"/:service(services|service-areas|junk-removal|furniture-removal|couch-removal|mattress-removal|appliance-removal|garage-cleanouts|move-out-cleanouts|property-cleanouts|yard-debris-removal|storage-unit-cleanouts|construction-debris-removal)/index.html","destination":"/:service/","permanent":true},
+    {"source":"/:service(junk-removal|furniture-removal|couch-removal|mattress-removal|appliance-removal|garage-cleanouts|move-out-cleanouts|property-cleanouts)/:location/index.html","destination":"/:service/:location/","permanent":true}
+  ],
+  "headers": [
+    {"source":"/(.*)","headers":[{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"Referrer-Policy","value":"strict-origin-when-cross-origin"}]}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "pages": 1163,
+  "indexable": 22,
+  "noindex": 1141,
+  "locations": 142,
+  "core_services": 8,
+  "service_location_pages": 1136,
+  "shared_content_groups": {
+    "junk-removal": 142,
+    "furniture-removal": 142,
+    "couch-removal": 142,
+    "mattress-removal": 142,
+    "appliance-removal": 142,
+    "garage-cleanouts": 142,
+    "move-out-cleanouts": 142,
+    "property-cleanouts": 142
+  },
+  "shared_content_action": "All service/location pages noindexed pending verified local editorial content. Noindex URLs excluded from sitemap.",
+  "errors": []
+}

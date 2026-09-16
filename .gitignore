@@ -1,0 +1,6 @@
+work/
+public/
+supabase/.temp/
+site-tools/manifest.json
+site-tools/__pycache__/
+.env*

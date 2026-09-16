@@ -1,39 +1,47 @@
 # Bryan Junks It Away
 
-A mobile-first, one-page HTML/CSS/JavaScript site. No build, packages, tracking, external fonts, paid assets, backend, or form service. Open `index.html` to preview.
+Static HTML/CSS/JavaScript website published through GitHub → Vercel. Business phone: **626-386-5623**. Email: **bryanjunksitaway@gmail.com**. One service-area business based in Baldwin Park; no public residential address.
 
-## Before publishing
+## Build and audit
 
-1. Contact is configured for **626-346-6254** and **bryanjunksitaway@gmail.com**. Test the text/email links on your phone. No message is sent automatically; customers attach photos in their messaging app.
-3. The supplied first mascot/logo and all eight job photos are included. Bryan confirmed the truck photos are junk-side jobs. Originals on the Desktop are unchanged.
+```sh
+python3 site-tools/build.py
+python3 site-tools/audit.py
+```
 
-## Free deployment: Cloudflare Pages
+Python 3.9+ standard library only. Generated output is in `public/`, ignored by Git. Vercel runs the build and serves that directory. Do not publish the repository root.
 
-The files are portable to GitHub Pages and Vercel, but their free hosting policies are not a good fit for this commercial site. Vercel Hobby is non-commercial; GitHub Pages restricts online-business/commercial-transaction sites. Keep the $0 requirement with a static Cloudflare Pages upload instead.
+Root HTML files remain the source for the homepage and functional pages. The build adds shared navigation, footer, metadata, and homepage/pricing enhancements. Regional and service pages use shared templates in `site-tools/build.py`. `expansion.css` extends the original `styles.css` design.
 
-1. Sign in to a free Cloudflare account. Open **Workers & Pages**.
-2. Choose **Create application → Pages → Use direct upload** (wording may vary).
-3. Name the project `bryan-junks-it-away` or another available name.
-4. Upload this folder's site contents, with `index.html` at the upload root. Include `styles.css`, `config.js`, `script.js`, and `assets/`. The README need not be uploaded.
-5. Deploy and use the supplied `pages.dev` address. Do not buy a domain or enable paid features. No build command or server is needed.
-6. For updates, edit your local files and upload a new production deployment in the same project.
+## Content sources
 
-Official guide: https://developers.cloudflare.com/pages/get-started/direct-upload/
-Free limits: https://developers.cloudflare.com/pages/platform/limits/
+- `site-tools/content/services.json`: eight core services and three previously advertised services; copy, proposed starting prices, related services, and FAQs.
+- `site-tools/content/regions.json`: exact owner-supplied service groupings, not claims about administrative boundaries.
+- `site-tools/content/locations.json`: 142 normalized locations, region membership, geographic references, and nearby links. GeoNames postal centroids and linked geographic references are approximate, imply no travel time, and are not business-office coordinates.
+- `pricing.js`: existing estimator source of truth. The load table is generated from its bands. Review service starting-price copy alongside any calculator price changes.
 
-## GitHub Pages / Vercel compatibility
+## Indexing policy
 
-All asset paths are relative, so project subdirectories work. No special routing is required.
+22 core/hub/regional pages are indexable. All 1,136 core service/location routes exist and are linked but temporarily `noindex,follow`: service guidance is reused across locations without enough independently verified local editorial detail. Five utility/coming-soon pages are also noindexed.
 
-- GitHub Pages (only where your use complies with its policy): put files in a public repository root; Settings → Pages → Deploy from a branch → main → / (root) → Save. `.nojekyll` is included. Guide: https://docs.github.com/en/pages/quickstart . Business-use restrictions: https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits . This is not the recommended public business host.
-- Vercel: import as framework “Other”, no build command, output directory `.`. Technically compatible, but do not deploy this business site on Hobby or upgrade to a paid plan under the $0 requirement. Policy: https://vercel.com/docs/plans/hobby .
+Do not remove noindex merely to increase page count. Add useful, verified local editorial content, review the rendered page, update the indexing decision, and revise the explicit editorial-review guard in the audit. Rebuild to update metadata and sitemaps together. Never fabricate jobs, reviews, policies, offices, or local facts.
 
-## Editing
+`site-tools/manifest.json` and `site-tools/audit-results.json` record decisions/results. Submit `https://www.bryanjunksitaway.com/sitemap.xml` to Search Console. Only indexable routes enter the sitemap.
 
-- Text, pricing, sections and image captions: `index.html`.
-- Colors, spacing and responsive layout: `styles.css`.
-- Contact destinations: `config.js`.
-- Quote-message preparation and copy fallback: `script.js`.
-- Photos: `assets/`. Keep filenames or update HTML references and descriptive alt text.
+## Functional systems
 
-There is no payment, booking confirmation, data storage, or automatic quote calculation. Quote details remain in the page until visitors choose to copy or send them through their own app. Nothing has been published as part of this download.
+- `pricing.js`, `script.js`: questionnaire and estimate carryover.
+- `booking.js`: availability, review/edit, attachments, submission, confirmation.
+- `account.js`: account and rewards client.
+- `supabase/`: existing backend source/migrations. The static build does not alter backend functions.
+- Google Apps Script receives backend notifications. Keep its shared secret exclusively in server settings, never in version control.
+
+## Browser checks
+
+`tests/expansion-browser.cjs` uses Playwright with Chrome. Set `PLAYWRIGHT_MODULE` to your installed module path. It tests representative mobile/desktop pages and both navigation paths, then exercises estimates and review/confirmation with booking POST mocked. It creates no real reservation. `LIVE=1` verifies deployed content; submission stays mocked.
+
+## Deployment
+
+`vercel.json` preserves existing `.html` URLs and uses trailing slashes for new nested routes. Homepage and new directory `index.html` aliases redirect to canonical routes. Canonical domain: `https://www.bryanjunksitaway.com`. Booking query parameters are preserved, but canonical tags exclude them.
+
+After pushing, verify production build completion and test live routes, redirects, sitemap, robots, and availability. Test real account authentication and notification delivery separately when their code or settings change.
