@@ -25,15 +25,18 @@
  const params=new URLSearchParams(location.search);let estimate=null;
  if(params.get('city'))form.elements.city.value=params.get('city');
  if(params.get('estimate')==='1'){try{estimate=JSON.parse(sessionStorage.getItem('pickupEstimate'))}catch{}}
- if(estimate)form.elements.items.value=(estimate.quantity?estimate.quantity+' item(s): ':'')+(estimate.otherItem||estimate.itemType||'')+(estimate.notes?'\n'+estimate.notes:'');
+ if(estimate)form.elements.items.value=(estimate.quantity?estimate.quantity+' item(s): ':'')+(estimate.description||estimate.otherItem||estimate.itemType||'')+(estimate.notes?'\n'+estimate.notes:'');
+ const initialEstimatedItems=estimate?form.elements.items.value:'';
  const row=(label,value)=>{const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=value||'Not provided';return [dt,dd]};
  form.addEventListener('input',()=>{if(!busy)invalidate()});
  form.addEventListener('submit',e=>{e.preventDefault();if(busy||!form.reportValidity())return;if(!ready||!selectedDate||!selectedTime){status.textContent='Choose a day and arrival time first.';status.scrollIntoView({block:'center'});return}
   const d=new FormData(form),files=[...form.elements.photos.files];if(files.length>5||files.reduce((n,f)=>n+f.size,0)>3*1024*1024||files.some(f=>!['image/jpeg','image/png','image/webp'].includes(f.type))){status.textContent='Please attach up to 5 JPG, PNG or WebP photos, totaling no more than 3 MB.';status.scrollIntoView({block:'center'});return}
-  const notes=estimate?Object.entries(estimate).filter(([k])=>!['price','photos'].includes(k)).map(([k,v])=>k+': '+v).join('\n'):'';
+  const changedEstimate=estimate&&d.get('items')!==initialEstimatedItems;
+  const labels={city:'City / ZIP',area:'Service area',itemType:'Main service',description:'Item description',quantity:'Approximate count',load:'Amount',bedrooms:'Bedrooms',fullness:'How full',weight:'Weight',access:'Pickup access',flights:'Flights of stairs',elevator:'Elevator available',carry:'Carry distance',disassembly:'Disassembly',tight:'Tight access',material:'Debris material',notes:'Additional details'};
+  const notes=estimate?[...Object.entries(estimate).filter(([k])=>!['price','photos'].includes(k)).map(([k,v])=>(labels[k]||k)+': '+v),estimate.price?.amount!=null?'Online estimate: $'+estimate.price.amount+' (subject to approval)'+(changedEstimate?' — pickup details changed; team review needed':''):'Online estimate: team review requested',...(estimate.price?.items||[]),...(estimate.price?.factors||[]),...(estimate.price?.assumptions||[])].join('\n'):'';
   pending={request_id:crypto.randomUUID(),contact_name:d.get('name').trim(),phone:d.get('phone').trim(),email:d.get('email').trim(),address:d.get('address').trim(),city:d.get('city').trim(),area:params.get('area')||estimate?.area||'',pickup_date:selectedDate,pickup_time:selectedTime,items:d.get('items'),payment_preference:d.get('payment'),notes,load_size:estimate?.load||'',heavy_item:estimate?.weight||'',files};
   details.replaceChildren();const dl=document.createElement('dl');for(const [label,value] of [['Date',selectedDate],['Arrival time',selectedTime+' Pacific'],['Name',pending.contact_name],['Phone',pending.phone],['Email',pending.email],['Pickup address',pending.address],['City / ZIP',pending.city],['Area',pending.area],['Items',pending.items],['Payment preference',pending.payment_preference],['Photos',files.length?files.map(f=>f.name).join(', '):'None attached']])dl.append(...row(label,value));
-  if(estimate?.price?.low!=null)dl.append(...row('Starting estimate','$'+estimate.price.low+(estimate.price.high!==estimate.price.low?'–$'+estimate.price.high:'')));
+  if(estimate?.price?.low!=null)dl.append(...row(changedEstimate?'Original estimate — items edited; subject to review':'Online estimate','$'+estimate.price.low+(estimate.price.high!==estimate.price.low?'–$'+estimate.price.high:'')));
   if(notes)dl.append(...row('Estimate answers',notes));details.append(dl);result.hidden=false;result.scrollIntoView({behavior:'smooth',block:'center'});
  });
  document.querySelector('#edit-booking').addEventListener('click',()=>{if(!busy){invalidate();form.elements.name.focus()}});

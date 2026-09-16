@@ -6,14 +6,16 @@ document.querySelectorAll('.city-toggle').forEach(button=>button.addEventListene
 const calculator=document.querySelector('#calculator');
 if(calculator){
  const result=document.querySelector('#price-result');
- calculator.addEventListener('change',()=>{const rough=document.querySelector('#rough-size');if(rough){rough.hidden=new FormData(calculator).get('load')!=='unknown';rough.querySelectorAll('input').forEach(x=>x.disabled=rough.hidden)}});
- calculator.querySelectorAll('#home-size input').forEach(input=>input.disabled=true);
- const otherWrap=document.querySelector('#other-item-wrap');const otherInput=document.querySelector('#other-item');calculator.addEventListener('change',()=>{const show=new FormData(calculator).get('itemType')==='other';if(otherWrap)otherWrap.hidden=!show;if(otherInput){otherInput.disabled=!show;otherInput.required=show}});if(otherInput)otherInput.disabled=true;
- calculator.addEventListener('change',()=>{const home=document.querySelector('#home-size');home.hidden=new FormData(calculator).get('load')!=='home';home.querySelectorAll('input').forEach(input=>input.disabled=home.hidden);result.hidden=true});
+ const conditional=(id,show)=>{const el=document.getElementById(id);if(!el)return;el.hidden=!show;el.querySelectorAll('input,textarea').forEach(x=>x.disabled=!show)};
+ const sync=()=>{const d=Object.fromEntries(new FormData(calculator));conditional('home-size',d.load==='home');conditional('fullness-wrap',['quarter','half','threequarters','full','home'].includes(d.load));conditional('stairs-wrap',d.access==='Upstairs');conditional('material-wrap',['yard','construction'].includes(d.itemType));const flights=document.getElementById('flights');flights.required=d.access==='Upstairs'&&d.elevator==='no';flights.disabled=d.access!=='Upstairs'||d.elevator==='yes';result.hidden=true;sessionStorage.removeItem('pickupEstimate');};
+ calculator.addEventListener('change',sync);calculator.addEventListener('input',()=>{result.hidden=true;sessionStorage.removeItem('pickupEstimate')});sync();
  calculator.addEventListener('submit',e=>{
   e.preventDefault();const data=Object.fromEntries(new FormData(calculator));const price=estimatePickup(data);
-  document.querySelector('#price-value').textContent=price.low===null?'Let’s review your pickup':price.low===price.high?'$'+price.low:'$'+price.low+'–$'+price.high;
+  document.querySelector('#price-value').textContent=price.amount===null?'Let’s fine-tune your quote':'Estimated $'+price.amount;
   document.querySelector('#price-note').textContent=price.note;
+  const details=document.querySelector('#price-details');details.replaceChildren();
+  for(const [heading,values] of [['Items recognized',price.items],['What shapes your estimate',price.factors],['Please check',price.assumptions]]){if(!values?.length)continue;const h=document.createElement('h3');h.textContent=heading;const ul=document.createElement('ul');values.forEach(value=>{const li=document.createElement('li');li.textContent=value;ul.append(li)});details.append(h,ul)}
+  const check=document.createElement('p');check.textContent='Missing an item or a detail? Edit your answers before booking.';details.append(check);
   const saved={...data,price};delete saved.photos;
   sessionStorage.setItem('pickupEstimate',JSON.stringify(saved));
   const query=new URLSearchParams({city:data.city,area:data.area,estimate:'1'});document.querySelector('#reserve-estimate').href='schedule.html?'+query;
