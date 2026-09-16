@@ -88,7 +88,7 @@ function estimatePickup(d){
   }
   if(!cleanout&&amount>=635)return review('Your item list looks larger than a small pickup. Choose a room / cleanout-sized load so we can price the full amount.');
  }
- if(['single','few'].includes(key)&&count<=2&&d.weight==='light'&&(d.itemType==='chairs'||items.length>0&&items.every(i=>i.name==='Chair')))amount=95;
+ if(['single','few'].includes(key)&&count<=2&&!['heavy','veryheavy'].includes(d.weight)&&(d.itemType==='chairs'||items.length>0&&items.every(i=>i.name==='Chair')))amount=95;
  if(stairs){const cost=25*floors;amount+=cost;factors.push(`Stairs: ${floors} flight${floors===1?'':'s'} (+$${cost})`);}
  if(longCarry){amount+=35;factors.push('Long carry (+$35)');}else if(d.carry==='medium'){amount+=15;factors.push('Carry of about 30–75 feet (+$15)');}
  if(d.access==='Inside the home'){amount+=15;factors.push('Indoor pickup (+$15)');}
@@ -102,6 +102,20 @@ function estimatePickup(d){
  if(!items.length)assumptions.push('We used your selected service and amount. Your written description will also be reviewed by our team.');
  if(!cleanout&&amount>=635)return review('The amount and handling look more involved than a standard small pickup. We’ll review the details and send a price for your approval.');
  amount=Math.max(95,Math.round(amount/5)*5);
- return {amount,low:amount,high:amount,note:'Your estimated pickup price, based on the items, amount, and access details below. We’ll confirm the final price in person or contact you and send an invoice for approval before work begins.',items:items.map(i=>`${i.quantity} × ${i.name}`),factors,assumptions};
+ // The lower end is the item/load calculation plus known labor. The upper
+ // end allows for volume variation and specifically unanswered handling details.
+ const band=PICKUP_BANDS[key];
+ const volumeAllowance=key==='home'?100:band&&!['single','few'].includes(key)?Math.ceil((band[1]-band[0])/10)*5:25;
+ let allowance=volumeAllowance;
+ const reasons=['a '+(key==='home'?'whole-home':band&&!['single','few'].includes(key)?'load-size':'small-item')+' allowance for size and volume'];
+ if(d.weight==='unknown'){allowance+=25;reasons.push('unconfirmed weight');}
+ if(d.disassembly==='unknown'){allowance+=35;reasons.push('possible disassembly');}
+ if(d.tight==='unknown'){allowance+=20;reasons.push('unconfirmed access');}
+ if(d.carry==='unknown'){allowance+=35;reasons.push('unconfirmed carry distance');}
+ if(!items.length&&['single','few',undefined].includes(key)){allowance+=25;reasons.push('items needing a closer look');}
+ let high=Math.ceil((amount+allowance)/5)*5;
+ if(!cleanout){if(high>=635)return review('The amount and possible handling reach cleanout pricing. We’ll review those details and send a price for your approval.');}
+ assumptions.push('The range includes '+reasons.join(', ')+'. Clear item details and photos help us narrow it before you approve.');
+ return {amount,low:amount,high,note:'Your estimated pickup range, based on the items, amount, and access details below. We’ll confirm the final price in person or contact you and send an invoice for approval before work begins.',items:items.map(i=>`${i.quantity} × ${i.name}`),factors,assumptions};
 }
 if(typeof module!=='undefined'){module.exports=estimatePickup;module.exports.parsePickupDescription=parsePickupDescription;}

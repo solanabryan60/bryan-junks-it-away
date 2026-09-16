@@ -1,6 +1,6 @@
 # Estimate model — September 16, 2026
 
-Customer results show one planning estimate, not a guaranteed final invoice. Final approval can happen in person, or after the team contacts the customer and sends an invoice for approval. This update changes website copy; it does not automatically create or send invoices.
+Customer results show a planning price range, not a guaranteed final invoice. Final approval can happen in person, or after the team contacts the customer and sends an invoice for approval. This update changes website copy; it does not automatically create or send invoices.
 
 ## Inputs
 
@@ -19,3 +19,7 @@ Dense or hazardous materials, pianos/safes/hot tubs, and items over 200 pounds r
 ## Checks
 
 Run `node tests/pricing.cjs`, `node tests/estimate-browser.cjs`, and `node tests/expansion-browser.cjs` with the available Node and Playwright runtime. The browser submission is mocked so testing does not create a customer reservation or send email. The build/audit validates all generated site pages.
+
+## Range update
+
+The lower end retains the calculated item/load amount plus known labor. The upper end adds $25 for ordinary small-item size variation, half of the reference load-band width for larger selected loads (rounded to $5), or $100 for whole homes. Unknown weight adds $25, disassembly $35, tight access $20, and carry distance $35 to the upper end only. Unrecognized small-item descriptions add $25. Results explain the uncertainty. Small-pickup ranges stay below $635; jobs at the threshold require a cleanout selection or review. These allowances need calibration against actual completed jobs.

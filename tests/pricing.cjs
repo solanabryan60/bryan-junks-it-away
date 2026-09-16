@@ -30,3 +30,9 @@ assert.deepEqual(estimate.parsePickupDescription('2 chairs, 1 queen mattress, 6 
 assert.equal(estimate.parsePickupDescription('2 chairs. The couch is staying.').length,1);
 assert.equal(estimate({...home,bedrooms:'5'}).amount,null);
 console.log('PASS 25 pricing, description, negation, cleanout, and review scenarios');
+
+assert.deepEqual([estimate(base).low,estimate(base).high],[95,120]);
+assert.equal(estimate({...base,weight:'unknown'}).high-estimate({...base,weight:'unknown'}).low,50);
+assert(estimate({...couch,carry:'unknown',disassembly:'unknown'}).high>estimate(couch).high);
+assert.equal(estimate(home).high,735);
+console.log('PASS ranges follow load variation and explicit uncertainty allowances');

@@ -11,7 +11,7 @@ if(calculator){
  calculator.addEventListener('change',sync);calculator.addEventListener('input',()=>{result.hidden=true;sessionStorage.removeItem('pickupEstimate')});sync();
  calculator.addEventListener('submit',e=>{
   e.preventDefault();const data=Object.fromEntries(new FormData(calculator));const price=estimatePickup(data);
-  document.querySelector('#price-value').textContent=price.amount===null?'Let’s fine-tune your quote':'Estimated $'+price.amount;
+  document.querySelector('#price-value').textContent=price.amount===null?'Let’s fine-tune your quote':'Estimated $'+price.low+'–$'+price.high;
   document.querySelector('#price-note').textContent=price.note;
   const details=document.querySelector('#price-details');details.replaceChildren();
   for(const [heading,values] of [['Items recognized',price.items],['What shapes your estimate',price.factors],['Please check',price.assumptions]]){if(!values?.length)continue;const h=document.createElement('h3');h.textContent=heading;const ul=document.createElement('ul');values.forEach(value=>{const li=document.createElement('li');li.textContent=value;ul.append(li)});details.append(h,ul)}
