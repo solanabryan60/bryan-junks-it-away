@@ -1,7 +1,7 @@
 {
   "pages": 1163,
-  "indexable": 22,
-  "noindex": 1141,
+  "indexable": 164,
+  "noindex": 999,
   "locations": 142,
   "core_services": 8,
   "service_location_pages": 1136,
@@ -15,6 +15,6 @@
     "move-out-cleanouts": 142,
     "property-cleanouts": 142
   },
-  "shared_content_action": "All service/location pages noindexed pending verified local editorial content. Noindex URLs excluded from sitemap.",
+  "shared_content_action": "One complete primary guide per location is indexable. Specialist service/location variants remain noindex and are excluded from sitemaps. Shared business guidance remains transparent; no fabricated local reviews or jobs.",
   "errors": []
 }

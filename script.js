@@ -5,6 +5,8 @@ const footerArea=[...document.querySelectorAll('footer span')].find(x=>/Serving 
 document.querySelectorAll('.city-toggle').forEach(button=>button.addEventListener('click',()=>{const list=document.getElementById(button.getAttribute('aria-controls'));const open=list.hasAttribute('open');list.toggleAttribute('open',!open);button.setAttribute('aria-expanded',String(!open));if(!open)list.scrollIntoView({behavior:'smooth',block:'nearest'})}));
 const calculator=document.querySelector('#calculator');
 if(calculator){
+ const pickupCity=new URLSearchParams(location.search).get('city');
+ if(pickupCity)calculator.elements.city.value=pickupCity.slice(0,120);
  const result=document.querySelector('#price-result');
  const conditional=(id,show)=>{const el=document.getElementById(id);if(!el)return;el.hidden=!show;el.querySelectorAll('input,textarea').forEach(x=>x.disabled=!show)};
  const sync=()=>{const d=Object.fromEntries(new FormData(calculator));conditional('home-size',d.load==='home');conditional('fullness-wrap',['quarter','half','threequarters','full','home'].includes(d.load));conditional('stairs-wrap',d.access==='Upstairs');conditional('material-wrap',['yard','construction'].includes(d.itemType));const flights=document.getElementById('flights');flights.required=d.access==='Upstairs'&&d.elevator==='no';flights.disabled=d.access!=='Upstairs'||d.elevator==='yes';result.hidden=true;sessionStorage.removeItem('pickupEstimate');};

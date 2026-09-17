@@ -15,6 +15,7 @@ BRAND = 'Bryan Junks It Away'
 services = json.loads((CONTENT / 'services.json').read_text())
 regions = json.loads((CONTENT / 'regions.json').read_text())
 locations = json.loads((CONTENT / 'locations.json').read_text())
+local_guides = json.loads((CONTENT / 'local-guides.json').read_text())
 S = {x['slug']: x for x in services}
 R = {x['slug']: x for x in regions}
 L = {x['slug']: x for x in locations}
@@ -112,6 +113,8 @@ def directory(service):
     return section('FIND YOUR PICKUP AREA','One service. Across the places we serve.','<p class="section-lede">Choose a region, then your pickup location. Tell us where you need a pickup, and we’ll help you make room.</p><div class="region-directory">'+''.join('<details><summary>'+e(r['name'])+f'<span>{len(r["locations"])} areas</span></summary><ul class="location-links">'+''.join('<li>'+a('/'+service['slug']+'/'+slug+'/',L[slug]['name'])+'</li>' for slug in sorted(r['locations'],key=lambda x:L[x]['name']))+'</ul>'+a(r['url'],'More pickup options in '+r['name']+' ↗','text-link')+'</details>' for r in regions)+'</div>')
 
 def service_page(s,loc=None):
+    if loc and s['slug']=='junk-removal':
+        return location_page(loc)
     path='/'+s['slug']+'/'+(loc['slug']+'/' if loc else '')
     title=s['name']+(' in '+loc['name']+', CA' if loc else ' in Southern California')+' | '+BRAND
     h1=s['name']+' in '+loc['name']+', CA' if loc else s['name']+' in Southern California'
@@ -135,7 +138,33 @@ def service_page(s,loc=None):
         body+=directory(s)
         body+='<figure class="brand-figure"><img src="/assets/logo.png" width="1389" height="1141" loading="lazy" alt="Bryan Junks It Away illustrated mascot with furniture and a junk truck"><figcaption>Big or small, we haul it all.</figcaption></figure>'
     body+=faq(s['faqs'])+closing(loc)
-    write(path,body,title,desc,indexable=loc['indexable'] if loc else True,breadcrumbs=breadcrumbs,service=s,location=loc)
+    write(path,body,title,desc,indexable=False if loc else True,breadcrumbs=breadcrumbs,service=s,location=loc)
+
+def location_page(loc):
+    """One complete local landing page, rather than eight indexed service variants."""
+    name=loc['name']; path='/junk-removal/'+loc['slug']+'/'
+    guide=local_guides['locations'][loc['slug']]
+    resource=local_guides['resources'][guide['resource']]
+    membership=' and '.join(a(R[r]['url'],R[r]['name']) for r in loc['regions'])
+    nearby=', '.join(a('/junk-removal/'+slug+'/',L[slug]['name']) for slug in loc['nearby'])
+    body='<section class="page-intro service-intro"><p class="eyebrow">WE COME TO YOU · '+e(name.upper())+'</p><h1>Junk Removal &amp; Cleanouts<br>in '+e(name)+', CA</h1><p class="intro">Make Room For What Matters Most.</p><p class="section-lede">An old sofa, a garage full of boxes, or a whole space ready for a fresh start—we handle the lifting, loading, and hauling in '+e(name)+'. Small pickups start at $95. Tell us what needs to go, get a personal estimate, and approve the price before we begin.</p>'+actions(loc)+'</section>'
+    body+='<nav class="nearby-links local-jump" aria-label="On this page">'+''.join(a('#'+slug,label) for slug,label in [('pickup-services','What we take'),('pickup-prices','Pricing'),('pickup-plan','Plan your pickup'),('local-options','Local disposal options')])+'</nav>'
+    body+=section('YOUR LOCAL PICKUP','Removal at your address in '+name+'.','<div class="editorial-grid"><div><p>'+e(guide['intro'])+'</p><p>Our team travels from Baldwin Park to your pickup address. '+('We also serve '+nearby+'.' if nearby else '')+'</p><p>Explore more pickup areas across '+membership+'.</p></div><aside class="pickup-note"><h3>A clear plan before we arrive.</h3><p>Share the items, your address, and the route to the truck. Choose from the available pickup times when you book. We’ll call about 1–2 hours before the scheduled arrival to confirm our arrival.</p>'+a('/schedule.html?'+urlencode({'city':name,'area':R[loc['regions'][0]]['name']}),'Check pickup times in '+name+' ↗','text-link')+'</aside></div>')
+    cards=''
+    for s in services:
+        target='/'+s['slug']+'/'+(loc['slug']+'/' if s['core'] and s['slug']!='junk-removal' else '')
+        cards+='<article><h3>'+a(target,s['name'])+'</h3><p>'+e(s['description'])+'</p><p class="fine">'+('From $'+str(s['starting'])+' · Depends on items and access' if s['starting'] else 'Material-specific quote')+'</p></article>'
+    body+='<div id="pickup-services">'+section('ONE ITEM OR A BIGGER RESET','What can we remove in '+name+'?','<div class="service-grid service-cards">'+cards+'</div><p>Tell us about mixed loads together so we can estimate the whole pickup. Paint, chemicals, unknown materials, and unusually heavy items need a separate review before acceptance.</p>')+'</div>'
+    rows=[('single','Single item'),('few','A few items'),('eighth','⅛ truck'),('quarter','¼ truck'),('half','½ truck'),('threequarters','¾ truck'),('full','Full truck')]
+    pricing='<div class="service-price-list">'+''.join('<p><strong>'+label+'</strong><span>$'+str(LOAD_BANDS[key][0])+'–$'+str(LOAD_BANDS[key][1])+('+' if key=='full' else '')+'</span></p>' for key,label in rows)+'</div>'
+    body+='<div id="pickup-prices">'+section('KNOW WHAT SHAPES YOUR PRICE','Junk removal pricing in '+name+'.','<div class="editorial-grid"><div>'+pricing+'</div><aside class="pickup-note"><h3>Your items set the starting point.</h3><p>These household-load ranges use the same pricing guide across our listed areas. Two lightweight wooden chairs with straightforward access can qualify for the $95 minimum. A couch, sleeper sofa, and sectional can take different amounts of space and handling.</p><p>Whole studio or one-bedroom cleanouts start at $635. That is a whole-cleanout starting point, not the price for a few leftover items. Dense construction debris and special-disposal materials need their own quote.</p></aside></div><p>Stairs, long carries, weight, and disassembly affect the estimate. We’ll confirm the final price with you in person or contact you and send an invoice for your approval before work begins.</p>'+actions(loc))+'</div>'
+    body+='<div id="pickup-plan">'+section('A SMOOTHER PICKUP','Before your '+name+' pickup.','<div class="service-grid"><article><h3>Show everything that is going.</h3><p>Send wide photos and an item list. Mark what stays, include items behind the first row, and describe unusually heavy pieces. For a cleanout, show each room rather than only the front door.</p></article><article><h3>Plan the route out.</h3><p>'+e(guide['access'])+'</p></article><article><h3>Keep the details together.</h3><p>Review your name, contact details, pickup address, items, and chosen time before confirming. Use your confirmation number when sending photos or asking to update or cancel your reservation.</p></article></div>')+'</div>'
+    local='<div class="editorial-grid"><div><h3>Check your existing collection service.</h3><p>'+e(guide.get('collection_note','Your regular trash provider may offer scheduled bulky-item collection. Ask about eligibility, item limits, placement, and dates for your exact address before putting anything out.'))+'</p>'
+    if guide.get('collection_url'):local+=a(guide['collection_url'],guide['collection_label']+' ↗','text-link')
+    local+='<p>Need help carrying items out or clearing a mixed load? Our paid pickup service includes lifting and loading, with the scope and price agreed before work starts.</p></div><aside class="pickup-note"><h3>Set special materials aside.</h3><p>'+e(resource['description'])+'</p>'+a(resource['url'],resource['label']+' ↗','text-link')+'<p class="fine">These are public programs, separate from our service. Check current eligibility and accepted materials with the program. Resident drop-off rules do not automatically cover commercial hauling.</p></aside></div>'
+    body+='<div id="local-options">'+section('CHOOSE WHAT WORKS FOR YOUR ITEMS','Pickup and disposal options for '+name+'.',local)+'</div>'
+    body+=faq([('Can you pick up just one item in '+name+'?','Yes. Small, straightforward pickups start at $95. Tell us the item, its size and weight, and access so we can calculate an estimate for the actual work.'),('Do I need to bring everything outside?','No. We can discuss indoor, garage, upstairs, and backyard pickups. Include the route to the truck and any stairs, gates, or disassembly in your estimate request.'),('How do I find an available pickup date?','Use Schedule Pickup to check available dates and times, then review your details before confirming. We do not promise same-day service or a particular time until availability is checked.'),('Can I combine furniture and other junk?','Yes. Describe the combined load in one request. Identify appliances, construction debris, and special materials separately so we can review handling and acceptance.'),('Is my estimate the final price?','It is a starting estimate based on your answers. We’ll confirm the final price in person or contact you and send an invoice for your approval before work begins.')])+closing(loc)
+    write(path,body,'Junk Removal & Cleanouts in '+name+', CA | '+BRAND,'Junk removal in '+name+' from $95 for small pickups. Compare load pricing, furniture removal and cleanouts, local disposal options, and book a pickup.',indexable=True,breadcrumbs=[('Home','/'),('Service Areas','/service-areas/'),(R[loc['regions'][0]]['name'],R[loc['regions'][0]]['url']),(name,path)],service=S['junk-removal'],location=loc)
 
 def regional_page(r):
     strap,intro,heading,img,alt=REGIONAL[r['slug']]
@@ -202,9 +231,9 @@ def build():
         service_page(s)
         if s['core']:
             for loc in locations:service_page(s,loc)
-    for group,rows in [('pages',[p for p in manifest if p['indexable'] and not p['service']]),('services',[p for p in manifest if p['indexable'] and p['service']])]:
-        (OUT/f'sitemap-{group}.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+BASE+p['path']+'</loc></url>' for p in rows)+'</urlset>')
-    (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<sitemap><loc>'+BASE+'/sitemap-'+g+'.xml</loc></sitemap>' for g in ['pages','services'])+'</sitemapindex>')
+    for group,rows in [('pages',[p for p in manifest if p['indexable'] and not p['service']]),('services',[p for p in manifest if p['indexable'] and p['service'] and not p['location']]),('locations',[p for p in manifest if p['indexable'] and p['location']])]:
+        (OUT/f'sitemap-{group}.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+BASE+p['path']+'</loc>'+('<lastmod>'+local_guides['reviewed']+'</lastmod>' if p['location'] else '')+'</url>' for p in rows)+'</urlset>')
+    (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<sitemap><loc>'+BASE+'/sitemap-'+g+'.xml</loc></sitemap>' for g in ['pages','services','locations'])+'</sitemapindex>')
     (OUT/'robots.txt').write_text('User-agent: *\nAllow: /\n\nSitemap: '+BASE+'/sitemap.xml\n')
     (ROOT/'site-tools/manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
     print(f'Built {len(manifest)} pages: {sum(p["indexable"] for p in manifest)} indexable; {sum(not p["indexable"] for p in manifest)} noindex.')

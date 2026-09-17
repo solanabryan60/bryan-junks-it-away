@@ -97,7 +97,7 @@ for value,count in collections.Counter(' '.join(p.heading) for p in parsed.value
 
 ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'}
 urls=[]
-for file in ['sitemap-pages.xml','sitemap-services.xml']:
+for file in ['sitemap-pages.xml','sitemap-services.xml','sitemap-locations.xml']:
     urls += [el.text for el in ET.parse(OUT/file).findall('.//s:url/s:loc',ns)]
 expected={BASE+p['path'] for p in manifest if p['indexable']}
 if set(urls)!=expected or len(urls)!=len(set(urls)):errors.append('Sitemap differs from indexable routes')
@@ -115,8 +115,20 @@ groups=collections.defaultdict(list)
 for row in manifest:
     if row['location']:groups[row['service']].append(row['path'])
 reused=sum(len(v) for v in groups.values())
-if any(p['indexable'] for p in manifest if p['location']):errors.append('Location indexing needs a separate editorial quality review')
-report={'pages':len(pages),'indexable':len(expected),'noindex':len(pages)-len(expected),'locations':len(locs),'core_services':sum(s['core'] for s in services),'service_location_pages':reused,'shared_content_groups':{k:len(v) for k,v in groups.items()},'shared_content_action':'All service/location pages noindexed pending verified local editorial content. Noindex URLs excluded from sitemap.','errors':errors}
+guides=json.loads((ROOT/'site-tools/content/local-guides.json').read_text())
+if set(guides['locations'])!={loc['slug'] for loc in locs}:errors.append('Local guide coverage differs from service-area register')
+for row in manifest:
+    if not row['location']:continue
+    primary=row['service']=='junk-removal'
+    if row['indexable']!=primary:errors.append(row['path']+': only primary local guides should be indexed')
+    if primary:
+        page=parsed[row['path']]
+        for anchor in ['pickup-services','pickup-prices','pickup-plan','local-options']:
+            if anchor not in page.ids:errors.append(row['path']+': missing useful guide section '+anchor)
+        guide=guides['locations'][row['location']]
+        if guides['resources'][guide['resource']]['url'] not in page.links:errors.append(row['path']+': missing public resource')
+        if not any('schedule.html?city=' in link for link in page.links):errors.append(row['path']+': booking loses local context')
+report={'pages':len(pages),'indexable':len(expected),'noindex':len(pages)-len(expected),'locations':len(locs),'core_services':sum(s['core'] for s in services),'service_location_pages':reused,'shared_content_groups':{k:len(v) for k,v in groups.items()},'shared_content_action':'One complete primary guide per location is indexable. Specialist service/location variants remain noindex and are excluded from sitemaps. Shared business guidance remains transparent; no fabricated local reviews or jobs.','errors':errors}
 (ROOT/'site-tools/audit-results.json').write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2))
 sys.exit(bool(errors))

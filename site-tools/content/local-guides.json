@@ -1,0 +1,846 @@
+{
+  "reviewed": "2026-09-16",
+  "policy": "One primary junk-removal guide per existing owner-listed service area; specialist city variants stay noindex. Public-resource links do not imply affiliation or eligibility for every address. Shared service guidance is intentional, not claimed as unique local job history.",
+  "resources": {
+    "la": {
+      "label": "Los Angeles County household hazardous waste resources",
+      "url": "https://cleanla.lacounty.gov/hhw/collection-centers/",
+      "description": "For paint, chemicals, batteries, or electronics, check Los Angeles County\u2019s household hazardous waste collection resources before adding them to a junk pickup."
+    },
+    "oc": {
+      "label": "Orange County household hazardous waste resources",
+      "url": "https://www.oclandfills.com/environmental-programs/recycling/residential-hazardous-waste-0",
+      "description": "Orange County provides household hazardous waste collection information for residents. Check the program before arranging disposal of paint, chemicals, batteries, or similar materials."
+    },
+    "riverside": {
+      "label": "Riverside County Waste Resources",
+      "url": "https://rcwaste.org/",
+      "description": "Riverside County Waste Resources lists household hazardous waste collection options. Check the current program and accepted materials for items that do not belong in an ordinary junk load."
+    },
+    "sb": {
+      "label": "San Bernardino County household hazardous waste resources",
+      "url": "https://sbcfire.org/hhw/",
+      "description": "San Bernardino County\u2019s household hazardous waste program provides collection guidance for materials such as paint, chemicals, and batteries. Review the program that applies to your waste before arranging disposal."
+    }
+  },
+  "locations": {
+    "pasadena": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Pasadena. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "Pasadena\u2019s municipal bulky-item pickup is for City refuse customers. The city asks customers to schedule first and move items to the parkway; apartment residents with a private hauler should contact that provider. Our paid pickup can include carrying items from inside when agreed in the quote.",
+      "collection_url": "https://www.cityofpasadena.net/public-works/waste-management-recycling/residential-refuse-service-recycling/",
+      "collection_label": "Pasadena bulky-item pickup instructions"
+    },
+    "el-monte": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in El Monte. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "west-covina": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in West Covina. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "baldwin-park": {
+      "resource": "la",
+      "intro": "Baldwin Park is our home base. We help with small furniture pickups, garage clutter, and larger household cleanouts here, with lifting and loading included in the agreed scope. You can describe a single item or show us the whole space you want cleared.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "Baldwin Park publishes a bulky-item collection program for residents with active trash service. Check the city\u2019s current instructions and arrange collection before setting items out.",
+      "collection_url": "https://www.baldwinpark.com/m/newsflash/home/detail/193",
+      "collection_label": "Baldwin Park bulky-item collection"
+    },
+    "monrovia": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Monrovia. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "arcadia": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Arcadia. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "alhambra": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Alhambra. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "temple-city": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Temple City. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "rosemead": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Rosemead. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "covina": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Covina. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "duarte": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Duarte. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "glendora": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Glendora. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "azusa": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Azusa. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "la-verne": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in La Verne. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "san-dimas": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in San Dimas. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "claremont": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Claremont. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "pomona": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Pomona. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "san-gabriel": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in San Gabriel. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "la-puente": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in La Puente. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "walnut": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Walnut. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "south-pasadena": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in South Pasadena. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "sierra-madre": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Sierra Madre. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "bradbury": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Bradbury. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "diamond-bar": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Diamond Bar. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "rowland-heights": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Rowland Heights. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "hacienda-heights": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Hacienda Heights. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "industry": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Industry. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "irwindale": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Irwindale. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "maywood": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Maywood. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "commerce": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Commerce. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "van-nuys": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Van Nuys. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "northridge": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Northridge. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "canoga-park": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Canoga Park. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "reseda": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Reseda. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "burbank": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Burbank. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "chatsworth": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Chatsworth. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "tarzana": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Tarzana. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "woodland-hills": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Woodland Hills. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "sylmar": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Sylmar. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "sun-valley": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Sun Valley. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "north-hollywood": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in North Hollywood. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "sherman-oaks": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Sherman Oaks. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "encino": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Encino. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "panorama-city": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Panorama City. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "granada-hills": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Granada Hills. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "mission-hills": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Mission Hills. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "studio-city": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Studio City. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "calabasas": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Calabasas. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "west-hills": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in West Hills. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "winnetka": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Winnetka. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "pacoima": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Pacoima. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "lake-balboa": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Lake Balboa. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "porter-ranch": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Porter Ranch. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "valley-village": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Valley Village. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "downtown-los-angeles": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Downtown Los Angeles. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "east-los-angeles": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in East Los Angeles. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "northeast-los-angeles": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Northeast Los Angeles. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "south-los-angeles": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in South Los Angeles. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "hollywood": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Hollywood. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "los-feliz": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Los Feliz. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "eagle-rock": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Eagle Rock. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "montebello": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Montebello. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "whittier": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Whittier. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "la-habra-heights": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in La Habra Heights. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "norwalk": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Norwalk. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "downey": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Downey. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "bellflower": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Bellflower. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "long-beach": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Long Beach. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "glendale": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Glendale. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "silver-lake": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Silver Lake. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "echo-park": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Echo Park. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "boyle-heights": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Boyle Heights. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "koreatown": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Koreatown. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "westlake": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Westlake. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "mid-city": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Mid-City. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed.",
+      "collection_note": "For an address served by LA Sanitation, check the City of Los Angeles bulky-item program through MyLA311. Confirm address eligibility, accepted items, and set-out instructions. If you need help carrying items from inside or handling a mixed cleanout, describe that work in your private pickup request.",
+      "collection_url": "https://sanitation.lacity.gov/services/schedule-bulky-item-pickup",
+      "collection_label": "LA Sanitation bulky-item pickup"
+    },
+    "west-hollywood": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in West Hollywood. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "inglewood": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Inglewood. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "torrance": {
+      "resource": "la",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Torrance. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "riverside": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Riverside. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "ontario": {
+      "resource": "sb",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Ontario. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "fontana": {
+      "resource": "sb",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Fontana. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "rancho-cucamonga": {
+      "resource": "sb",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Rancho Cucamonga. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "san-bernardino": {
+      "resource": "sb",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in San Bernardino. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "colton": {
+      "resource": "sb",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Colton. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "redlands": {
+      "resource": "sb",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Redlands. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "loma-linda": {
+      "resource": "sb",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Loma Linda. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "eastvale": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Eastvale. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "corona": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Corona. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "chino": {
+      "resource": "sb",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Chino. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "chino-hills": {
+      "resource": "sb",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Chino Hills. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "upland": {
+      "resource": "sb",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Upland. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "jurupa-valley": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Jurupa Valley. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "moreno-valley": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Moreno Valley. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "norco": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Norco. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "perris": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Perris. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "hemet": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Hemet. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "temecula": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Temecula. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "murrieta": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Murrieta. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "montclair": {
+      "resource": "sb",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Montclair. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "palm-springs": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Palm Springs. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "victorville": {
+      "resource": "sb",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Victorville. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "rialto": {
+      "resource": "sb",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Rialto. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "yucaipa": {
+      "resource": "sb",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Yucaipa. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "beaumont": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Beaumont. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "banning": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Banning. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "menifee": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Menifee. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "lake-elsinore": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Lake Elsinore. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "san-jacinto": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in San Jacinto. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "canyon-lake": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Canyon Lake. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "calimesa": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Calimesa. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "wildomar": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Wildomar. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "winchester": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Winchester. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "woodcrest": {
+      "resource": "riverside",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Woodcrest. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "anaheim": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Anaheim. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "santa-ana": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Santa Ana. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "fullerton": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Fullerton. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "huntington-beach": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Huntington Beach. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "irvine": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Irvine. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "orange": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Orange. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "garden-grove": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Garden Grove. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "costa-mesa": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Costa Mesa. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "fountain-valley": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Fountain Valley. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "westminster": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Westminster. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "tustin": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Tustin. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "yorba-linda": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Yorba Linda. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "brea": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Brea. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "buena-park": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Buena Park. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "newport-beach": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Newport Beach. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "mission-viejo": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Mission Viejo. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "lake-forest": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Lake Forest. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "laguna-beach": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Laguna Beach. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "laguna-niguel": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Laguna Niguel. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "dana-point": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Dana Point. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "san-clemente": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in San Clemente. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "san-juan-capistrano": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in San Juan Capistrano. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "aliso-viejo": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Aliso Viejo. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "cypress": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Cypress. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "la-palma": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in La Palma. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "los-alamitos": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Los Alamitos. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "seal-beach": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Seal Beach. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "placentia": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Placentia. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    },
+    "villa-park": {
+      "resource": "oc",
+      "intro": "We offer furniture pickup, mixed household junk removal, and cleanouts in Villa Park. Whether you need a few pieces removed or most of a room cleared, we estimate the items that are actually going\u2014not the size of your address.",
+      "access": "Tell us whether pickup is from a home, apartment, storage unit, or business. Include the floor, stairs or elevator, parking distance, and any gate or building arrangements. Confirm loading access with the property manager when needed."
+    }
+  }
+}
