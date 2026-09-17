@@ -1,3 +1,7 @@
+# Indexing policy update — September 17, 2026
+
+The owner explicitly requested indexing eligibility for every public service and city page. All 1,136 service/location pages now use index,follow and appear in sitemap-locations.xml. Total eligible pages: 1,158. The five utility/coming-soon pages remain excluded. Google decides actual indexing and ranking. This policy supersedes the narrower rollout documented below.
+
 # Local search rollout — September 16, 2026
 
 ## Scope

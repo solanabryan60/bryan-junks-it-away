@@ -14,13 +14,13 @@
       "san-gabriel"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.148787999999996,
       -118.14175999999999
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "el-monte",
@@ -36,13 +36,13 @@
       "arcadia"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0717,
       -118.02680000000001
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "west-covina",
@@ -58,13 +58,13 @@
       "baldwin-park"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.056025000000005,
       -117.91772499999999
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "baldwin-park",
@@ -80,13 +80,13 @@
       "el-monte"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0964,
       -117.9682
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "monrovia",
@@ -102,13 +102,13 @@
       "irwindale"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.14605,
       -118.0002
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "arcadia",
@@ -124,13 +124,13 @@
       "bradbury"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.134024999999994,
       -118.037125
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "alhambra",
@@ -147,13 +147,13 @@
       "pasadena"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.09118333333333,
       -118.13011666666667
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "temple-city",
@@ -169,13 +169,13 @@
       "el-monte"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.1016,
       -118.0537
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "rosemead",
@@ -191,13 +191,13 @@
       "alhambra"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.07566666666666,
       -118.07696666666666
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "covina",
@@ -213,13 +213,13 @@
       "glendora"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.092333333333336,
       -117.88226666666667
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "duarte",
@@ -235,13 +235,13 @@
       "baldwin-park"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.14306666666667,
       -117.96613333333333
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "glendora",
@@ -257,13 +257,13 @@
       "la-verne"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.1412,
       -117.84944999999999
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "azusa",
@@ -279,13 +279,13 @@
       "duarte"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.1248,
       -117.9031
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "la-verne",
@@ -301,13 +301,13 @@
       "glendora"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.1159,
       -117.7708
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "san-dimas",
@@ -323,13 +323,13 @@
       "pomona"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.1023,
       -117.8169
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "claremont",
@@ -346,13 +346,13 @@
       "pomona"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.1092,
       -117.7183
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "pomona",
@@ -369,13 +369,13 @@
       "san-dimas"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.061125000000004,
       -117.755425
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "san-gabriel",
@@ -391,13 +391,13 @@
       "south-pasadena"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.1002,
       -118.09566666666667
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "la-puente",
@@ -413,13 +413,13 @@
       "la-habra-heights"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0283,
       -117.955625
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "walnut",
@@ -435,13 +435,13 @@
       "industry"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0193,
       -117.85995
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "south-pasadena",
@@ -457,13 +457,13 @@
       "northeast-los-angeles"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.1135,
       -118.1525
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "sierra-madre",
@@ -479,13 +479,13 @@
       "bradbury"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.1634,
       -118.05235
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "bradbury",
@@ -501,13 +501,13 @@
       "baldwin-park"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.14944,
       -117.97444
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Bradbury%2C_California",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "diamond-bar",
@@ -523,13 +523,13 @@
       "rowland-heights"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0066,
       -117.8098
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "rowland-heights",
@@ -545,13 +545,13 @@
       "hacienda-heights"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.9818,
       -117.8969
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "hacienda-heights",
@@ -567,13 +567,13 @@
       "rowland-heights"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.9977,
       -117.9652
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "industry",
@@ -589,13 +589,13 @@
       "la-habra-heights"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.005,
       -117.939
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/City_of_Industry%2C_California",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "irwindale",
@@ -611,13 +611,13 @@
       "monrovia"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.117,
       -117.967
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Irwindale%2C_California",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "maywood",
@@ -633,13 +633,13 @@
       "montebello"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.989,
       -118.1877
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "commerce",
@@ -655,13 +655,13 @@
       "boyle-heights"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.00056,
       -118.15472
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Commerce%2C_California",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "van-nuys",
@@ -677,13 +677,13 @@
       "valley-village"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.18763846153846,
       -118.45101538461539
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "northridge",
@@ -699,13 +699,13 @@
       "granada-hills"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.230866666666664,
       -118.53543333333333
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "canoga-park",
@@ -721,13 +721,13 @@
       "chatsworth"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.2053,
       -118.6014
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "reseda",
@@ -743,13 +743,13 @@
       "tarzana"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.2009,
       -118.5378
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "burbank",
@@ -765,13 +765,13 @@
       "valley-village"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.18060769230769,
       -118.31326923076922
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "chatsworth",
@@ -787,13 +787,13 @@
       "northridge"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.25775,
       -118.5963
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "tarzana",
@@ -809,13 +809,13 @@
       "woodland-hills"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.170199999999994,
       -118.54769999999999
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "woodland-hills",
@@ -831,13 +831,13 @@
       "tarzana"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.16725,
       -118.606925
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "sylmar",
@@ -853,13 +853,13 @@
       "panorama-city"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.3066,
       -118.44069999999999
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "sun-valley",
@@ -875,13 +875,13 @@
       "pacoima"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.2192,
       -118.37015
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "north-hollywood",
@@ -897,13 +897,13 @@
       "burbank"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.17436363636364,
       -118.37974545454546
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "sherman-oaks",
@@ -919,13 +919,13 @@
       "encino"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.15155,
       -118.447725
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "encino",
@@ -941,13 +941,13 @@
       "van-nuys"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.158725000000004,
       -118.502025
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "panorama-city",
@@ -963,13 +963,13 @@
       "lake-balboa"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.225449999999995,
       -118.44839999999999
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "granada-hills",
@@ -985,13 +985,13 @@
       "sylmar"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.2709,
       -118.51115
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "mission-hills",
@@ -1007,13 +1007,13 @@
       "sylmar"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.258766666666666,
       -118.46423333333333
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "studio-city",
@@ -1029,13 +1029,13 @@
       "west-hollywood"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.1458,
       -118.3939
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "calabasas",
@@ -1051,13 +1051,13 @@
       "tarzana"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.14985,
       -118.65125
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "west-hills",
@@ -1073,13 +1073,13 @@
       "winnetka"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.196799999999996,
       -118.64145
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "winnetka",
@@ -1095,13 +1095,13 @@
       "tarzana"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.21125,
       -118.57345000000001
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "pacoima",
@@ -1117,13 +1117,13 @@
       "sun-valley"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.260200000000005,
       -118.42493333333334
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "lake-balboa",
@@ -1139,13 +1139,13 @@
       "van-nuys"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.20111,
       -118.50111
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Lake_Balboa%2C_Los_Angeles",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "porter-ranch",
@@ -1161,13 +1161,13 @@
       "canoga-park"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.2619,
       -118.582
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "valley-village",
@@ -1183,13 +1183,13 @@
       "van-nuys"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.16605,
       -118.3977
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "downtown-los-angeles",
@@ -1205,13 +1205,13 @@
       "koreatown"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.05,
       -118.25
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Downtown_Los_Angeles",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "east-los-angeles",
@@ -1227,13 +1227,13 @@
       "montebello"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.033,
       -118.167
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/East_Los_Angeles%2C_California",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "northeast-los-angeles",
@@ -1249,13 +1249,13 @@
       "echo-park"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.1178,
       -118.216
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Northeast_Los_Angeles",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "south-los-angeles",
@@ -1271,13 +1271,13 @@
       "mid-city"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.98056,
       -118.28611
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/South_Los_Angeles",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "hollywood",
@@ -1293,13 +1293,13 @@
       "silver-lake"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.098,
       -118.32952
     ],
     "coordinate_source": "https://mapcarta.com/Los_Angeles/Hollywood",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "los-feliz",
@@ -1315,13 +1315,13 @@
       "glendale"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.1124,
       -118.2851
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Los_Feliz%2C_Los_Angeles",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "eagle-rock",
@@ -1337,13 +1337,13 @@
       "pasadena"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.13889,
       -118.21306
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Eagle_Rock%2C_Los_Angeles",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "montebello",
@@ -1359,13 +1359,13 @@
       "rosemead"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0133,
       -118.113
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "whittier",
@@ -1381,13 +1381,13 @@
       "montebello"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.967929999999996,
       -118.03081999999999
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "la-habra-heights",
@@ -1403,13 +1403,13 @@
       "la-puente"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.96389,
       -117.95278
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/La_Habra_Heights%2C_California",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "norwalk",
@@ -1425,13 +1425,13 @@
       "whittier"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.903333333333336,
       -118.08173333333333
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "downey",
@@ -1447,13 +1447,13 @@
       "maywood"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.940375,
       -118.130025
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "bellflower",
@@ -1469,13 +1469,13 @@
       "los-alamitos"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.8842,
       -118.12174999999999
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "long-beach",
@@ -1491,13 +1491,13 @@
       "bellflower"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.78824814814815,
       -118.19525555555555
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "glendale",
@@ -1513,13 +1513,13 @@
       "burbank"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.152271428571424,
       -118.2546
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "silver-lake",
@@ -1535,13 +1535,13 @@
       "koreatown"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.09444444444445,
       -118.2675
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Silver_Lake%2C_Los_Angeles",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "echo-park",
@@ -1557,13 +1557,13 @@
       "koreatown"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0792,
       -118.258
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Echo_Park%2C_Los_Angeles",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "boyle-heights",
@@ -1579,13 +1579,13 @@
       "commerce"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.03389,
       -118.20444
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Boyle_Heights%2C_Los_Angeles",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "koreatown",
@@ -1601,13 +1601,13 @@
       "silver-lake"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0618,
       -118.3006
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Koreatown%2C_Los_Angeles",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "westlake",
@@ -1623,13 +1623,13 @@
       "silver-lake"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0536044,
       -118.2798855
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Westlake%2C_Los_Angeles",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "mid-city",
@@ -1645,13 +1645,13 @@
       "westlake"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0459,
       -118.3453
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Mid-City%2C_Los_Angeles",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "west-hollywood",
@@ -1667,13 +1667,13 @@
       "koreatown"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0906,
       -118.3788
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "inglewood",
@@ -1689,13 +1689,13 @@
       "maywood"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.91416666666667,
       -118.33629166666667
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "torrance",
@@ -1711,13 +1711,13 @@
       "bellflower"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.81095,
       -118.31317
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "riverside",
@@ -1734,13 +1734,13 @@
       "norco"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.95069411764706,
       -117.39744705882353
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "ontario",
@@ -1756,13 +1756,13 @@
       "claremont"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0574,
       -117.640375
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "fontana",
@@ -1778,13 +1778,13 @@
       "san-bernardino"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.08618,
       -117.45194000000001
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "rancho-cucamonga",
@@ -1800,13 +1800,13 @@
       "montclair"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.13364,
       -117.57712
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "san-bernardino",
@@ -1822,13 +1822,13 @@
       "redlands"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.11947333333333,
       -117.29644666666667
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "colton",
@@ -1844,13 +1844,13 @@
       "moreno-valley"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0315,
       -117.2874
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "redlands",
@@ -1866,13 +1866,13 @@
       "san-bernardino"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.05343333333333,
       -117.1767
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "loma-linda",
@@ -1888,13 +1888,13 @@
       "moreno-valley"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0498,
       -117.2579
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "eastvale",
@@ -1911,13 +1911,13 @@
       "corona"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.96361,
       -117.56417
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Eastvale,_California",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "corona",
@@ -1934,13 +1934,13 @@
       "chino"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.853028571428574,
       -117.5537
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "chino",
@@ -1956,13 +1956,13 @@
       "montclair"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.98325,
       -117.66239999999999
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "chino-hills",
@@ -1978,13 +1978,13 @@
       "yorba-linda"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.9797,
       -117.7308
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "upland",
@@ -2000,13 +2000,13 @@
       "rancho-cucamonga"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.123266666666666,
       -117.65823333333333
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "jurupa-valley",
@@ -2023,13 +2023,13 @@
       "norco"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34,
       -117.483
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Jurupa_Valley,_California",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "moreno-valley",
@@ -2046,13 +2046,13 @@
       "redlands"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.92894285714286,
       -117.22625714285714
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "norco",
@@ -2069,13 +2069,13 @@
       "chino"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.9247,
       -117.5517
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "perris",
@@ -2092,13 +2092,13 @@
       "menifee"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.7903,
       -117.24795
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "hemet",
@@ -2115,13 +2115,13 @@
       "banning"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.742025,
       -116.971375
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "temecula",
@@ -2138,13 +2138,13 @@
       "menifee"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.4995,
       -117.14072
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "murrieta",
@@ -2161,13 +2161,13 @@
       "canyon-lake"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.562,
       -117.222
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "montclair",
@@ -2183,13 +2183,13 @@
       "upland"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0733,
       -117.6987
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "palm-springs",
@@ -2205,13 +2205,13 @@
       "beaumont"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.801433333333335,
       -116.5292
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "victorville",
@@ -2227,13 +2227,13 @@
       "fontana"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.518550000000005,
       -117.33664999999999
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "rialto",
@@ -2249,13 +2249,13 @@
       "loma-linda"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.13465,
       -117.39065
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "yucaipa",
@@ -2271,13 +2271,13 @@
       "banning"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       34.0282,
       -117.0489
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "beaumont",
@@ -2294,13 +2294,13 @@
       "san-jacinto"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.9504,
       -116.9701
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "banning",
@@ -2317,13 +2317,13 @@
       "yucaipa"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.9282,
       -116.8899
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "menifee",
@@ -2339,13 +2339,13 @@
       "murrieta"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.6647,
       -117.1743
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "lake-elsinore",
@@ -2361,13 +2361,13 @@
       "perris"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.67353333333333,
       -117.32626666666667
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "san-jacinto",
@@ -2383,13 +2383,13 @@
       "winchester"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.789633333333335,
       -116.95763333333333
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "canyon-lake",
@@ -2405,13 +2405,13 @@
       "perris"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.68417,
       -117.25556
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Canyon_Lake,_California",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "calimesa",
@@ -2427,13 +2427,13 @@
       "banning"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.9946,
       -117.043
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "wildomar",
@@ -2449,13 +2449,13 @@
       "menifee"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.6021,
       -117.264
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "winchester",
@@ -2471,13 +2471,13 @@
       "wildomar"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.6243,
       -117.0885
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "woodcrest",
@@ -2493,13 +2493,13 @@
       "jurupa-valley"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.88222,
       -117.35722
     ],
     "coordinate_source": "https://en.wikipedia.org/wiki/Woodcrest%2C_California",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "anaheim",
@@ -2515,13 +2515,13 @@
       "villa-park"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.83591764705882,
       -117.89771764705883
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "santa-ana",
@@ -2537,13 +2537,13 @@
       "irvine"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.74091818181818,
       -117.86662727272727
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "fullerton",
@@ -2559,13 +2559,13 @@
       "buena-park"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.880812500000005,
       -117.921925
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "huntington-beach",
@@ -2581,13 +2581,13 @@
       "garden-grove"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.692233333333334,
       -118.00085
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "irvine",
@@ -2603,13 +2603,13 @@
       "lake-forest"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.67776923076923,
       -117.79703846153846
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "orange",
@@ -2625,13 +2625,13 @@
       "santa-ana"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.80353636363636,
       -117.8241
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "garden-grove",
@@ -2647,13 +2647,13 @@
       "los-alamitos"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.77811428571429,
       -117.97307142857143
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "costa-mesa",
@@ -2669,13 +2669,13 @@
       "santa-ana"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.656166666666664,
       -117.91329999999999
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "fountain-valley",
@@ -2691,13 +2691,13 @@
       "santa-ana"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.7121,
       -117.93934999999999
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "westminster",
@@ -2713,13 +2713,13 @@
       "seal-beach"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.755966666666666,
       -117.99873333333333
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "tustin",
@@ -2735,13 +2735,13 @@
       "villa-park"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.73596666666667,
       -117.80930000000001
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "yorba-linda",
@@ -2757,13 +2757,13 @@
       "chino-hills"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.89366666666667,
       -117.7797
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "brea",
@@ -2779,13 +2779,13 @@
       "yorba-linda"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.9236,
       -117.85723333333334
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "buena-park",
@@ -2801,13 +2801,13 @@
       "los-alamitos"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.856425,
       -118.000925
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "newport-beach",
@@ -2823,13 +2823,13 @@
       "aliso-viejo"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.62093333333333,
       -117.89705000000001
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "mission-viejo",
@@ -2845,13 +2845,13 @@
       "san-juan-capistrano"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.612966666666665,
       -117.6495
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "lake-forest",
@@ -2867,13 +2867,13 @@
       "laguna-niguel"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.6437,
       -117.6868
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "laguna-beach",
@@ -2889,13 +2889,13 @@
       "san-juan-capistrano"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.542950000000005,
       -117.78139999999999
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "laguna-niguel",
@@ -2911,13 +2911,13 @@
       "san-clemente"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.5207,
       -117.71005
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "dana-point",
@@ -2933,13 +2933,13 @@
       "laguna-beach"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.4743,
       -117.6964
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "san-clemente",
@@ -2955,13 +2955,13 @@
       "laguna-beach"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.44616666666667,
       -117.62723333333334
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "san-juan-capistrano",
@@ -2977,13 +2977,13 @@
       "laguna-beach"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.5031,
       -117.6608
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "aliso-viejo",
@@ -2999,13 +2999,13 @@
       "newport-beach"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.61935,
       -117.7736
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "cypress",
@@ -3021,13 +3021,13 @@
       "garden-grove"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.8181,
       -118.0357
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "la-palma",
@@ -3043,13 +3043,13 @@
       "norwalk"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.8491,
       -118.0398
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "los-alamitos",
@@ -3065,13 +3065,13 @@
       "westminster"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.798950000000005,
       -118.0669
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "seal-beach",
@@ -3087,13 +3087,13 @@
       "garden-grove"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.7602,
       -118.0808
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "placentia",
@@ -3109,13 +3109,13 @@
       "yorba-linda"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.87865,
       -117.85499999999999
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   },
   {
     "slug": "villa-park",
@@ -3131,12 +3131,12 @@
       "yorba-linda"
     ],
     "indexable": true,
-    "indexing_reason": "Primary local guide covers services, pricing, pickup planning and public disposal resources. Specialist service/location variants remain noindex because their content is shared.",
+    "indexing_reason": "All public service/location pages are eligible for indexing at the owner\u2019s request.",
     "coordinates": [
       33.8205,
       -117.8104
     ],
     "coordinate_source": "https://download.geonames.org/export/zip/US.zip",
-    "indexing_scope": "primary-junk-removal-guide-only"
+    "indexing_scope": "all-public-service-pages"
   }
 ]

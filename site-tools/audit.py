@@ -120,7 +120,7 @@ if set(guides['locations'])!={loc['slug'] for loc in locs}:errors.append('Local 
 for row in manifest:
     if not row['location']:continue
     primary=row['service']=='junk-removal'
-    if row['indexable']!=primary:errors.append(row['path']+': only primary local guides should be indexed')
+    if not row['indexable']:errors.append(row['path']+': public service/location page must allow indexing')
     if primary:
         page=parsed[row['path']]
         for anchor in ['pickup-services','pickup-prices','pickup-plan','local-options']:
@@ -128,7 +128,7 @@ for row in manifest:
         guide=guides['locations'][row['location']]
         if guides['resources'][guide['resource']]['url'] not in page.links:errors.append(row['path']+': missing public resource')
         if not any('schedule.html?city=' in link for link in page.links):errors.append(row['path']+': booking loses local context')
-report={'pages':len(pages),'indexable':len(expected),'noindex':len(pages)-len(expected),'locations':len(locs),'core_services':sum(s['core'] for s in services),'service_location_pages':reused,'shared_content_groups':{k:len(v) for k,v in groups.items()},'shared_content_action':'One complete primary guide per location is indexable. Specialist service/location variants remain noindex and are excluded from sitemaps. Shared business guidance remains transparent; no fabricated local reviews or jobs.','errors':errors}
+report={'pages':len(pages),'indexable':len(expected),'noindex':len(pages)-len(expected),'locations':len(locs),'core_services':sum(s['core'] for s in services),'service_location_pages':reused,'shared_content_groups':{k:len(v) for k,v in groups.items()},'shared_content_action':'All public service/location pages allow indexing and are included in sitemaps at the owner’s request. Shared business guidance remains transparent; no fabricated local reviews or jobs.','errors':errors}
 (ROOT/'site-tools/audit-results.json').write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2))
 sys.exit(bool(errors))

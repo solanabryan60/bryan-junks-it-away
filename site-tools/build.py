@@ -138,7 +138,7 @@ def service_page(s,loc=None):
         body+=directory(s)
         body+='<figure class="brand-figure"><img src="/assets/logo.png" width="1389" height="1141" loading="lazy" alt="Bryan Junks It Away illustrated mascot with furniture and a junk truck"><figcaption>Big or small, we haul it all.</figcaption></figure>'
     body+=faq(s['faqs'])+closing(loc)
-    write(path,body,title,desc,indexable=False if loc else True,breadcrumbs=breadcrumbs,service=s,location=loc)
+    write(path,body,title,desc,indexable=True,breadcrumbs=breadcrumbs,service=s,location=loc)
 
 def location_page(loc):
     """One complete local landing page, rather than eight indexed service variants."""
