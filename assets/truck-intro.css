@@ -1,0 +1,28 @@
+/* Preview-only scroll scene. The original homepage follows unchanged. */
+.truck-intro{height:210svh;background:#111713;position:relative;--door:0;--reveal:0;isolation:isolate}
+.truck-stage{position:sticky;top:0;height:100svh;min-height:580px;display:flex;align-items:center;justify-content:center;overflow:hidden;background:radial-gradient(ellipse at 50% 35%,#34402f 0%,#141c17 52%,#090e0b 100%);padding:64px 28px 72px}
+.truck-scene-label{position:absolute;top:22px;left:0;right:0;text-align:center;color:#b0c0ab;font-size:10px;letter-spacing:.25em;text-transform:uppercase}
+.truck-frame{width:min(900px,92vw);height:min(70svh,690px);min-height:390px;position:relative;border:15px solid #bac0b7;border-bottom:24px solid #737b73;border-radius:12px 12px 4px 4px;box-shadow:0 0 0 2px #343d35,0 0 0 5px #606a60,0 40px 80px #000a,inset 0 0 40px #000;background:#e9eee2}
+.truck-frame:before,.truck-frame:after{content:'';position:absolute;bottom:-45px;width:68px;height:13px;border:4px solid #1c211d;border-radius:3px;background:linear-gradient(90deg,#631c18,#f35b44,#7b1714);box-shadow:0 2px 8px #0008;z-index:3}
+.truck-frame:before{left:16px}.truck-frame:after{right:16px}
+.truck-aperture{height:100%;position:relative;overflow:hidden;box-shadow:inset 0 0 30px #18251c60}
+.truck-welcome{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:28px;position:relative;background:radial-gradient(ellipse at top,#f8faef,#e1ead7);transform:scale(calc(.96 + var(--reveal)*.04));opacity:calc(.35 + var(--reveal)*.65)}
+.truck-welcome .eyebrow{font-size:10px;letter-spacing:.22em;color:#43613d;margin:0 0 16px}
+.truck-welcome h2{font-size:clamp(32px,4.9vw,66px);line-height:1.06;letter-spacing:-.035em;margin:0 0 20px;color:#17251b}
+.truck-welcome h2 em{color:#4f793e;font-style:normal}
+.truck-welcome>p:not(.eyebrow){font-size:clamp(14px,1.5vw,18px);line-height:1.6;max-width:470px;margin:0 0 24px;color:#52634f}
+.truck-welcome .button{font-size:14px;padding:15px 23px}
+.truck-shutter{position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;flex-direction:column;background:repeating-linear-gradient(0deg,transparent 0px,transparent 43px,#5e67592e 44px,#ffffffba 46px,#8b938450 48px),linear-gradient(90deg,#c2c9ba,#f1f3e9 22%,#e1e7d9 70%,#b9c1b0);box-shadow:0 12px 25px #0008;transform:translate3d(0,calc(var(--door)*-103%),0);will-change:transform}
+.truck-brand{width:clamp(130px,25vh,230px);height:clamp(130px,25vh,230px);object-fit:contain;border-radius:50%;background:#fff;padding:7px;box-shadow:0 3px 12px #17221625;margin-bottom:15px}
+.truck-door-copy{font-size:clamp(22px,3vw,40px);font-weight:900;line-height:1.1;color:#203522;text-align:center;letter-spacing:-.03em;margin:0 20px 8px;text-shadow:0 1px #fff}
+.truck-door-small{font-size:10px;letter-spacing:.23em;text-transform:uppercase;color:#3e553b;margin:0 20px 35px;text-align:center}
+.truck-handle{position:absolute;bottom:19px;left:50%;width:90px;height:14px;border:4px solid #566050;border-radius:5px;transform:translateX(-50%);background:#aab49f;box-shadow:0 2px 2px #fff9,inset 0 3px 2px #0007}
+.truck-scroll{position:absolute;bottom:23px;color:#d6e4cd;display:flex;gap:14px;align-items:center;font-size:10px;letter-spacing:.19em;text-transform:uppercase}
+.truck-scroll-line{height:28px;width:1px;background:#90b67a;transform-origin:top;transform:scaleY(calc(1 - var(--door)*.7))}
+.truck-skip{position:absolute;bottom:18px;right:24px;color:#d6e4cd;font-size:11px;text-decoration:none;border-bottom:1px solid #718467;padding:6px;z-index:4}
+.truck-intro:not(.motion-ready){height:auto}.truck-intro:not(.motion-ready) .truck-shutter{display:none}.truck-intro:not(.motion-ready) .truck-welcome{opacity:1;transform:none}
+@media(max-width:600px){.truck-stage{padding:55px 16px 70px;min-height:510px}.truck-frame{border-width:10px;border-bottom-width:18px;width:94vw;height:67svh;min-height:370px}.truck-welcome{padding:22px 15px}.truck-welcome h2{font-size:36px}.truck-welcome>p:not(.eyebrow){font-size:14px}.truck-brand{width:175px;height:175px}.truck-door-copy{font-size:27px}.truck-scroll{left:26px;bottom:22px;font-size:8px;gap:9px}.truck-skip{right:20px;font-size:10px}.truck-scene-label{font-size:8px;letter-spacing:.15em}.truck-door-small{font-size:8px}}
+@media(prefers-reduced-motion:reduce){.truck-intro.motion-ready{height:auto}.truck-shutter{display:none}.truck-welcome{opacity:1;transform:none}.truck-scroll{display:none}}
+body:has(.regions) main>section.truck-intro{order:-1!important;flex-shrink:0}
+.truck-stage{top:90px;height:calc(100svh - 132px);min-height:510px;padding-top:52px;padding-bottom:60px}.truck-frame{height:calc(100% - 25px);min-height:340px}.truck-brand{width:clamp(130px,22vh,190px);height:clamp(130px,22vh,190px)}
+@media(max-width:600px){.truck-stage{top:78px;height:calc(100svh - 116px);min-height:510px}.truck-frame{height:calc(100% - 20px);min-height:360px}.truck-brand{width:155px;height:155px}}
