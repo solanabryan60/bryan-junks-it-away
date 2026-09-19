@@ -22,9 +22,9 @@ Root HTML files remain the source for the homepage and functional pages. The bui
 
 ## Indexing policy
 
-22 core/hub/regional pages are indexable. All 1,136 core service/location routes exist and are linked but temporarily `noindex,follow`: service guidance is reused across locations without enough independently verified local editorial detail. Five utility/coming-soon pages are also noindexed.
+All 1,159 public pages allow indexing, including 1,136 service/location routes, at the owner's request. Five functional/account/coming-soon pages remain noindexed. Indexing is eligibility, not a promise of search placement. Shared service guidance is intentionally reused without invented local reviews, jobs, offices, or facts.
 
-Do not remove noindex merely to increase page count. Add useful, verified local editorial content, review the rendered page, update the indexing decision, and revise the explicit editorial-review guard in the audit. Rebuild to update metadata and sitemaps together. Never fabricate jobs, reviews, policies, offices, or local facts.
+The `/junk-removal-questions/` guide provides direct customer answers, linked sitewide. Business identity uses the verified Google Maps CID, confirmed 24/7 hours, and consistent WebSite/WebPage/Service relationships. Keep schema aligned with visible copy. The robots wildcard allows search crawlers; no special AI file or FAQ rich-result promise is required. Update `CONTENT_REVIEWED` only after substantive content review, not on every build.
 
 `site-tools/manifest.json` and `site-tools/audit-results.json` record decisions/results. Submit `https://www.bryanjunksitaway.com/sitemap.xml` to Search Console. Only indexable routes enter the sitemap.
 

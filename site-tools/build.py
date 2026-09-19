@@ -22,6 +22,8 @@ L = {x['slug']: x for x in locations}
 CORE = [x for x in services if x['core']]
 LOAD_BANDS = {key:(int(low),int(high)) for key,low,high in re.findall(r'(\w+):\[(\d+),(\d+)\]',(ROOT/'pricing.js').read_text())}
 manifest = []
+MAPS = 'https://www.google.com/maps?cid=8312459433107439370'
+CONTENT_REVIEWED = '2026-09-18'
 e = lambda text: html.escape(str(text), quote=True)
 
 REGIONAL = {
@@ -45,7 +47,7 @@ def chrome(path):
     nav = ''.join(f'<a href="{url}"'+(' aria-current="page"' if path == url else '')+f'>{label}</a>' for url,label in links)
     header = '<a class="skip" href="#main-content">Skip to content</a><header>'+a('/', 'BRYAN', 'wordmark').replace('BRYAN</a>', 'BRYAN<span>JUNKS IT AWAY</span></a>')+f'<nav id="primary-nav" aria-label="Main navigation">{nav}</nav>'+a('/schedule.html','Book now ↗','button header-book')+'</header>'
     top = '<div class="top-areas" aria-label="Regional service directories"><span>Serving:</span>'+''.join(a(r['url'],r['name']) for r in regions)+'</div>'
-    footer = '<footer class="site-footer"><div>'+a('/','BRYAN','wordmark').replace('BRYAN</a>','BRYAN<span>JUNKS IT AWAY</span></a>')+'<p>Big or small, we haul it all.</p><p>Based in Baldwin Park.<br>We come to you.</p>'+a('tel:+16263865623','626-386-5623')+a('mailto:bryanjunksitaway@gmail.com','bryanjunksitaway@gmail.com')+'</div><div><strong>Services</strong>'+''.join(a('/'+s['slug']+'/',s['name']) for s in CORE)+'</div><div><strong>Service Areas</strong>'+''.join(a(r['url'],r['name']) for r in regions)+'</div><div><strong>Plan your pickup</strong>'+''.join(a(u,t) for u,t in [('/calculator.html','Pricing & Estimates'),('/schedule.html','Schedule Pickup'),('/contact.html','Contact us'),('/account.html','Account & Rewards'),('/merch.html','Merch'),('/services/','All services')])+'</div></footer>'
+    footer = '<footer class="site-footer"><div>'+a('/','BRYAN','wordmark').replace('BRYAN</a>','BRYAN<span>JUNKS IT AWAY</span></a>')+'<p>Big or small, we haul it all.</p><p>Based in Baldwin Park.<br>We come to you.</p><p>Open 24 hours · Pickup times subject to availability.</p>'+a('tel:+16263865623','626-386-5623')+a('mailto:bryanjunksitaway@gmail.com','bryanjunksitaway@gmail.com')+'</div><div><strong>Services</strong>'+''.join(a('/'+s['slug']+'/',s['name']) for s in CORE)+'</div><div><strong>Service Areas</strong>'+''.join(a(r['url'],r['name']) for r in regions)+'</div><div><strong>Plan your pickup</strong>'+''.join(a(u,t) for u,t in [('/calculator.html','Pricing & Estimates'),('/schedule.html','Schedule Pickup'),('/contact.html','Contact us'),('/account.html','Account & Rewards'),('/merch.html','Merch'),('/services/','All services'),('/junk-removal-questions/','Pickup questions & answers')])+'</div></footer>'
     footer+='<nav class="mobile-contact" aria-label="Call or text us">'+a('tel:+16263865623','Call us')+a('sms:+16263865623','Text Photos')+'</nav>'
     return header+top, footer
 
@@ -54,12 +56,13 @@ def crumbs(items):
 
 def metadata(path,title,description,indexable,breadcrumbs=None,service=None,location=None,region=None):
     business={'@type':'LocalBusiness','@id':BASE+'/#business','name':BRAND,'url':BASE+'/','telephone':'+1-626-386-5623','email':'bryanjunksitaway@gmail.com','logo':BASE+'/assets/logo.png','description':'Junk removal and hauling service based in Baldwin Park, California. We travel to customers throughout our listed Southern California service areas.','areaServed':[{'@type':'Place','name':r['name']} for r in regions]}
-    graph=[business]
+    business.update({'sameAs':[MAPS], 'openingHoursSpecification':[{'@type':'OpeningHoursSpecification','dayOfWeek':['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],'opens':'00:00','closes':'23:59'}]})
+    graph=[business, {'@type':'WebSite','@id':BASE+'/#website','url':BASE+'/','name':BRAND,'publisher':{'@id':BASE+'/#business'},'inLanguage':'en-US'}, {'@type':'WebPage','@id':BASE+path+'#webpage','url':BASE+path,'name':title,'description':description,'isPartOf':{'@id':BASE+'/#website'},'about':{'@id':BASE+'/#business'},'inLanguage':'en-US'}]
     if service:
         graph.append({'@type':'Service','@id':BASE+path+'#service','name':service['name']+((' in '+location['name']) if location else ''),'serviceType':service['name'],'url':BASE+path,'provider':{'@id':BASE+'/#business'},'areaServed':{'@type':'Place','name':location['name']} if location else [{'@type':'Place','name':r['name']} for r in regions]})
     if region:graph.append({'@type':'Service','@id':BASE+path+'#service','name':'Junk Removal in '+region['name'],'provider':{'@id':BASE+'/#business'},'areaServed':{'@type':'Place','name':region['name']},'url':BASE+path})
     if breadcrumbs:graph.append({'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':i+1,'name':name,'item':BASE+url} for i,(name,url) in enumerate(breadcrumbs)]})
-    return f'<title>{e(title)}</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{BASE+path}"><meta name="robots" content="'+('index,follow' if indexable else 'noindex,follow')+'">'+''.join(f'<meta property="{k}" content="{e(v)}">' for k,v in {'og:type':'website','og:title':title,'og:description':description,'og:url':BASE+path,'og:site_name':BRAND,'og:image':BASE+'/assets/logo.png','og:image:alt':'Bryan Junks It Away illustrated logo'}.items())+'<meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">'+json.dumps({'@context':'https://schema.org','@graph':graph},ensure_ascii=False).replace('<','\\u003c')+'</script>'
+    return f'<title>{e(title)}</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{BASE+path}"><meta name="robots" content="'+('index,follow,max-image-preview:large' if indexable else 'noindex,follow')+'">'+''.join(f'<meta property="{k}" content="{e(v)}">' for k,v in {'og:type':'website','og:title':title,'og:description':description,'og:url':BASE+path,'og:site_name':BRAND,'og:image':BASE+'/assets/logo.png','og:image:alt':'Bryan Junks It Away illustrated logo'}.items())+'<meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">'+json.dumps({'@context':'https://schema.org','@graph':graph},ensure_ascii=False).replace('<','\\u003c')+'</script>'
 
 def write(path, body, title, description, indexable=True, breadcrumbs=None, service=None, location=None, region=None, legacy=None):
     head=metadata(path,title,description,indexable,breadcrumbs,service,location,region)
@@ -77,6 +80,11 @@ def write(path, body, title, description, indexable=True, breadcrumbs=None, serv
         doc=doc.replace('href="index.html"','href="/"')
     else:
         doc='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101b16">'+head+'<link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/expansion.css"><script src="/script.js" defer></script></head><body>'+header+'<main id="main-content">'+(crumbs(breadcrumbs) if breadcrumbs else '')+body+'</main>'+footer+'</body></html>'
+    # Schema describes the visible dedicated answer guide, not invented ratings or offers.
+    if path == '/junk-removal-questions/':
+        answers = re.findall(r'<details id="answer-\d+"><summary>(.*?)</summary><p>(.*?)</p></details>', doc, re.S)
+        schema = {'@context':'https://schema.org','@type':'FAQPage','@id':BASE+path+'#answers','mainEntity':[{'@type':'Question','name':html.unescape(q),'acceptedAnswer':{'@type':'Answer','text':html.unescape(ans)}} for q,ans in answers]}
+        doc = doc.replace('</head>', '<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')+'</script></head>')
     # Existing imagery stays intact; fixed dimensions reserve layout space.
     def image_attrs(m):
         tag=m.group(0)
@@ -98,7 +106,7 @@ def region_cards():
     return '<div class="region-grid">'+''.join('<a class="region-card" href="'+r['url']+'"><img src="'+REGIONAL[r['slug']][3]+'" alt="'+e(REGIONAL[r['slug']][4])+'"><span>'+e(r['name'])+'</span><small>'+str(len(r['locations']))+' listed pickup areas · Explore services</small></a>' for r in regions)+'</div>'
 
 def faq(items):
-    return section('GOOD TO KNOW','A few helpful answers.','<div class="faq-list">'+''.join('<details><summary>'+e(q)+'</summary><p>'+e(ans)+'</p></details>' for q,ans in items)+'</div>','faq-section')
+    return section('GOOD TO KNOW','A few helpful answers.','<div class="faq-list">'+''.join('<details id="answer-'+str(i+1)+'"><summary>'+e(q)+'</summary><p>'+e(ans)+'</p></details>' for i,(q,ans) in enumerate(items))+'</div>','faq-section')
 
 def process(service=None):
     first=service['prepare'] if service else 'Send photos and your pickup location, or use the estimate form to describe the load. Include weight and access details.'
@@ -124,6 +132,7 @@ def service_page(s,loc=None):
     body='<section class="page-intro service-intro"><p class="eyebrow">'+e('BRYAN JUNKS IT AWAY · '+(loc['name'] if loc else 'BASED IN BALDWIN PARK'))+'</p><h1>'+e(h1)+'</h1><p class="intro">'+e(s['headline'])+'</p><p class="section-lede">'+e(intro)+'</p>'+actions(loc)+'</section>'
     body+=section('WHAT WE HAUL',s['intent'],'<div class="editorial-grid"><div><p>'+e(s['explanation'])+'</p><ul class="item-list">'+''.join('<li>'+e(i)+'</li>' for i in s['items'])+'</ul></div><aside class="pickup-note"><span class="eyebrow">A BETTER STARTING ESTIMATE</span><h3>Show us the route out.</h3><p>'+e(s['access'])+'</p>'+a('sms:+16263865623','Text photos of your pickup ↗','text-link')+'</aside></div>')
     body+=section('CLEAR PRICING',('Starting at $'+str(s['starting'])+'.' if s['starting'] else 'A quote for the actual materials.'),'<div class="pricing-callout"><p>'+e(s['pricing'])+'</p><p>Quantity, volume, weight, stairs, long carries, tight access, and disassembly can affect your price. Heavy materials and special-disposal items are quoted separately. We’ll confirm the final price with you in person or contact you and send an invoice for your approval before work begins.</p>'+a('/calculator.html','See the full pricing guide ↗','text-link')+'</div>')
+    body+=section('QUICK PICKUP GUIDE','What to know before booking '+s['name'].lower()+'.','<p>'+e(s['pricing'])+'</p><p>'+e(s['prepare'])+'</p>'+a('/junk-removal-questions/','Pickup, pricing, and booking answers ↗','text-link'))
     body+=process(s)
     if loc:
         membership=' and '.join(a(R[r]['url'],R[r]['name']) for r in loc['regions'])
@@ -141,7 +150,7 @@ def service_page(s,loc=None):
     write(path,body,title,desc,indexable=True,breadcrumbs=breadcrumbs,service=s,location=loc)
 
 def location_page(loc):
-    """One complete local landing page, rather than eight indexed service variants."""
+    """Complete local landing page alongside indexed service-specific pages."""
     name=loc['name']; path='/junk-removal/'+loc['slug']+'/'
     guide=local_guides['locations'][loc['slug']]
     resource=local_guides['resources'][guide['resource']]
@@ -213,6 +222,32 @@ def legacy_pages():
             doc=doc.replace('</main>',section('ONE FRAMEWORK ACROSS OUR SERVICE AREA','Starting prices by service.','<div class="service-price-list">'+''.join('<p><strong>'+a('/'+s['slug']+'/',s['name'])+'</strong><span>'+('Starting at $'+str(s['starting']) if s['starting'] else 'Quoted separately')+'</span></p>' for s in services)+'</div><p>These are starting points, not flat prices. Whole studio / one-bedroom cleanouts start at $635; large or multi-load jobs need a detailed assessment. We’ll confirm the final price with you in person or contact you and send an invoice for your approval before work begins.</p>')+'</main>')
         write(path,'',title,desc,indexable=indexable,legacy=doc)
 
+
+def answer_page():
+    questions = [
+        ('How much does junk removal cost?', 'Small, straightforward pickups start at $95. The starting range for a few items is $150–$260. Larger household loads are estimated by truck space, with weight, stairs, carrying distance, and disassembly also affecting the price. Use our pricing guide and describe the full pickup for a personal estimate.'),
+        ('Can two small wooden chairs qualify for the $95 pickup?', 'Yes. Two lightweight wooden chairs can qualify for the $95 minimum when access is straightforward. Tell us whether any item weighs more than 50 pounds and include other items going in the same pickup.'),
+        ('How much does couch or sectional removal cost?', S['couch-removal']['pricing']),
+        ('How much is a whole-home cleanout?', 'Whole studio or one-bedroom cleanouts start at $635. Larger homes, heavier contents, and multiple loads need a detailed assessment. Removing a few leftover items is priced for those items, not automatically as a whole-home cleanout.'),
+        ('What is included in the pickup?', 'We handle lifting, loading, and hauling for the agreed items and scope. Describe indoor access, stairs, long carries, and any disassembly before booking so the estimate includes the work needed.'),
+        ('Where do you provide junk removal?', 'We are based in Baldwin Park, California, and travel to listed pickup areas throughout the San Gabriel Valley, Los Angeles, San Fernando Valley, Inland Empire, Riverside County, and Orange County. Check our service-area directory or contact us with the exact pickup location.'),
+        ('Can I get same-day junk removal?', 'Same-day pickup depends on availability and the job details. Check the scheduling page or call 626-386-5623. We are open 24 hours, but a particular pickup time is not guaranteed until availability and your reservation are confirmed.'),
+        ('Do I need to carry my items outside?', 'No. Tell us whether the items are indoors, upstairs, in a garage, in a backyard, or at the curb. Describe gates, elevators, narrow turns, and the distance to the truck so we can plan the work.'),
+        ('What items can you remove?', 'We offer household junk, furniture, couch, mattress, appliance, garage, move-out, property, storage-unit, yard-debris, and construction-debris removal. Describe mixed loads together. Acceptance and pricing for special materials must be reviewed before pickup.'),
+        ('Can you take paint, chemicals, or treated wood?', 'Do not assume these materials are included in a household-junk quote. Identify paint, chemicals, treated wood, unknown materials, and other special-disposal items when contacting us. We must review acceptance and disposal requirements before agreeing to haul them.'),
+        ('What should I include for the most useful estimate?', 'List each item and its approximate quantity, size, and weight. Include wide photos of the entire load, close-ups of heavy pieces, your pickup location, stairs, distance to the truck, and anything that needs disassembly. For a cleanout, describe and photograph each room.'),
+        ('Is the online estimate the final price?', 'The online estimate is a starting range based on the details you provide. We confirm the final price in person or contact you and send an invoice for your approval before work begins.'),
+        ('Is there a deposit to book?', 'Booking is free, with no deposit. Review your pickup details and chosen time before confirming. You approve the final job price before work begins.'),
+        ('What happens before the pickup?', 'We call about 1–2 hours before the scheduled arrival to confirm our arrival. Keep the agreed items identifiable and tell us if the load or access has changed.'),
+        ('How do I send photos or change my reservation?', 'Text photos or update and cancellation requests to 626-386-5623, or email bryanjunksitaway@gmail.com. Include your confirmation number so we can match the message to your reservation.'),
+        ('Should I use city bulky-item pickup instead?', 'Your existing trash provider may offer bulky-item collection. Check eligibility, accepted items, placement requirements, and dates for your address. Our paid pickup can help when you need lifting, indoor removal, or a combined load. Local pages link to public disposal resources where available.')
+    ]
+    body='<section class="page-intro"><p class="eyebrow">PLAN YOUR PICKUP WITH CONFIDENCE</p><h1>Junk removal questions,<br><em>answered.</em></h1><p class="section-lede">What will it cost? Can we carry it downstairs? What happens after you book? Find the details here, then tell us about the space you want back.</p>'+actions()+'</section>'
+    body+=section('BRYAN JUNKS IT AWAY','Your pickup at a glance.','<div class="service-grid"><article><h3>Small pickups from $95.</h3><p>Price depends on the actual items and access. Whole studio or one-bedroom cleanouts start at $635.</p>'+a('/calculator.html','Compare load prices ↗','text-link')+'</article><article><h3>Based in Baldwin Park.</h3><p>We travel to your pickup address across our listed Southern California service areas.</p>'+a('/service-areas/','Find your area ↗','text-link')+'</article><article><h3>Open 24 hours.</h3><p>Pickup appointments depend on availability. Call or text 626-386-5623.</p>'+a(MAPS,'Find our Google Business Profile ↗','text-link')+'</article></div>')
+    body+=faq(questions)
+    body+=section('READY WHEN YOU ARE','A few useful next steps.','<div class="hero-booking-actions">'+a('/services/','See what we remove','button secondary-button')+a('/calculator.html','Understand your estimate','button secondary-button')+a('/contact.html','Contact our team','button secondary-button')+'</div><p class="fine">Business information and answers reviewed September 18, 2026.</p>')+closing()
+    write('/junk-removal-questions/',body,'Junk Removal Questions: Prices, Items & Booking | '+BRAND,'Answers about junk removal prices from $95, cleanouts, stairs, service areas, photos, and booking. Plan your pickup with Bryan Junks It Away.',breadcrumbs=[('Home','/'),('Pickup questions','/junk-removal-questions/')])
+
 def build():
     if OUT.exists():shutil.rmtree(OUT)
     OUT.mkdir()
@@ -220,6 +255,7 @@ def build():
     for name in ['styles.css','expansion.css','script.js','booking.js','account.js','pricing.js','config.js']:
         shutil.copy2(ROOT/name,OUT/name)
     legacy_pages()
+    answer_page()
     for r in regions:regional_page(r)
     body='<section class="page-intro service-intro"><p class="eyebrow">THE GOOD KIND OF EMPTY.</p><h1>Junk Removal &amp;<br><em>Cleanout Services</em></h1><p class="section-lede">One unwanted couch or a whole place to clear? Start with what you need gone. We’re based in Baldwin Park and travel throughout our listed Southern California service areas.</p>'+actions()+'</section>'
     body+=section('MAKE ROOM FOR WHAT MATTERS MOST.','Find the right kind of help.',service_cards(CORE))
@@ -232,7 +268,7 @@ def build():
         if s['core']:
             for loc in locations:service_page(s,loc)
     for group,rows in [('pages',[p for p in manifest if p['indexable'] and not p['service']]),('services',[p for p in manifest if p['indexable'] and p['service'] and not p['location']]),('locations',[p for p in manifest if p['indexable'] and p['location']])]:
-        (OUT/f'sitemap-{group}.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+BASE+p['path']+'</loc>'+('<lastmod>'+local_guides['reviewed']+'</lastmod>' if p['location'] else '')+'</url>' for p in rows)+'</urlset>')
+        (OUT/f'sitemap-{group}.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+BASE+p['path']+'</loc>'+('<lastmod>'+CONTENT_REVIEWED+'</lastmod>' if p['indexable'] else '')+'</url>' for p in rows)+'</urlset>')
     (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<sitemap><loc>'+BASE+'/sitemap-'+g+'.xml</loc></sitemap>' for g in ['pages','services','locations'])+'</sitemapindex>')
     (OUT/'robots.txt').write_text('User-agent: *\nAllow: /\n\nSitemap: '+BASE+'/sitemap.xml\n')
     (ROOT/'site-tools/manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
