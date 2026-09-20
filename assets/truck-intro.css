@@ -2,7 +2,7 @@
 .truck-intro{height:210svh;background:#111713;position:relative;--door:0;--reveal:0;isolation:isolate}
 .truck-stage{position:sticky;top:0;height:100svh;min-height:580px;display:flex;align-items:center;justify-content:center;overflow:hidden;background:radial-gradient(ellipse at 50% 35%,#34402f 0%,#141c17 52%,#090e0b 100%);padding:64px 28px 72px}
 .truck-scene-label{position:absolute;top:22px;left:0;right:0;text-align:center;color:#b0c0ab;font-size:10px;letter-spacing:.25em;text-transform:uppercase}
-.truck-frame{width:min(1180px,96vw);height:min(70svh,690px);min-height:390px;position:relative;border:15px solid #bac0b7;border-bottom:24px solid #737b73;border-radius:12px 12px 4px 4px;box-shadow:0 0 0 2px #343d35,0 0 0 5px #606a60,0 40px 80px #000a,inset 0 0 40px #000;background:#e9eee2}
+.truck-frame{width:min(900px,92vw);height:min(70svh,690px);min-height:390px;position:relative;border:15px solid #bac0b7;border-bottom:24px solid #737b73;border-radius:12px 12px 4px 4px;box-shadow:0 0 0 2px #343d35,0 0 0 5px #606a60,0 40px 80px #000a,inset 0 0 40px #000;background:#e9eee2}
 .truck-frame:before,.truck-frame:after{content:'';position:absolute;bottom:-45px;width:68px;height:13px;border:4px solid #1c211d;border-radius:3px;background:linear-gradient(90deg,#631c18,#f35b44,#7b1714);box-shadow:0 2px 8px #0008;z-index:3}
 .truck-frame:before{left:16px}.truck-frame:after{right:16px}
 .truck-aperture{height:100%;position:relative;overflow:hidden;box-shadow:inset 0 0 30px #18251c60}
@@ -24,5 +24,5 @@
 @media(max-width:600px){.truck-stage{padding:55px 16px 70px;min-height:510px}.truck-frame{border-width:10px;border-bottom-width:18px;width:94vw;height:67svh;min-height:370px}.truck-welcome{padding:22px 15px}.truck-welcome h2{font-size:36px}.truck-welcome>p:not(.eyebrow){font-size:14px}.truck-brand{width:175px;height:175px}.truck-door-copy{font-size:27px}.truck-scroll{left:26px;bottom:22px;font-size:8px;gap:9px}.truck-skip{right:20px;font-size:10px}.truck-scene-label{font-size:8px;letter-spacing:.15em}.truck-door-small{font-size:8px}}
 @media(prefers-reduced-motion:reduce){.truck-intro.motion-ready{height:auto}.truck-shutter{display:none}.truck-welcome{opacity:1;transform:none}.truck-scroll{display:none}}
 body:has(.regions) main>section.truck-intro{order:-1!important;flex-shrink:0}
-.truck-stage{top:90px;height:calc(100svh - 132px);min-height:510px;padding-top:40px;padding-bottom:48px}.truck-frame{height:100%;min-height:340px}.truck-brand{width:clamp(155px,27vh,240px);height:clamp(155px,27vh,240px)}
-@media(max-width:600px){.truck-stage{top:78px;height:calc(100svh - 116px);min-height:510px}.truck-frame{height:100%;min-height:360px}.truck-brand{width:180px;height:180px}}
+.truck-stage{top:90px;height:calc(100svh - 90px);min-height:590px;padding-top:34px;padding-bottom:42px}.truck-frame{height:100%;min-height:340px}.truck-brand{width:clamp(155px,27vh,240px);height:clamp(155px,27vh,240px)}
+@media(max-width:600px){.truck-stage{top:78px;height:calc(100svh - 78px);min-height:560px}.truck-frame{height:100%;min-height:360px}.truck-brand{width:180px;height:180px}}
